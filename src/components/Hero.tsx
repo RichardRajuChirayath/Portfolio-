@@ -42,7 +42,7 @@ export const Hero = () => {
                                 <motion.span
                                     className="block text-transparent bg-clip-text"
                                     style={{
-                                        WebkitTextStroke: '2px #ffffff',
+                                        WebkitTextStroke: '2px #8b5cf6',
                                     }}
                                     initial={{ opacity: 0 }}
                                     animate={{ opacity: 1 }}

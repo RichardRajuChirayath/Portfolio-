@@ -121,8 +121,15 @@ export const Hero = () => {
                                 <Image src="/logos/qohesive.png" alt="Qohesive" width={16} height={16} className="rounded-sm" />
                                 <span>Co-Founder @ Qohesive</span>
                             </a>
-                            <div className="badge-legendary flex items-center gap-2">
-                                <GraduationCap className="w-3.5 h-3.5 text-white/40" />
+                            <div className="badge-legendary flex items-center gap-2 hover:scale-105 transition-transform group/edu">
+                                <div className="relative w-4 h-4 rounded-sm overflow-hidden bg-white/10 p-0.5 group-hover/edu:bg-white/20 transition-colors">
+                                    <Image
+                                        src="/logos/christ.png"
+                                        alt="Christ University"
+                                        fill
+                                        className="object-contain"
+                                    />
+                                </div>
                                 <span>Christ University '28</span>
                             </div>
                             <div className="badge-legendary flex items-center gap-2">

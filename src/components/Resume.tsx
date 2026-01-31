@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { Mail, Phone, MapPin, Linkedin, Github, Globe, Download, ExternalLink } from 'lucide-react';
+import Image from 'next/image';
 
 export const Resume = () => {
     const handlePrint = () => {
@@ -226,9 +227,19 @@ export const Resume = () => {
                                 Education
                             </h2>
                             <div className="flex justify-between items-start">
-                                <div>
-                                    <h3 className="font-bold text-gray-900">Bachelor of Technology (B.Tech)</h3>
-                                    <p className="text-sm text-gray-600">Christ University, Bengaluru</p>
+                                <div className="flex gap-4">
+                                    <div className="relative w-10 h-10 shrink-0 border border-gray-100 rounded-md overflow-hidden bg-white">
+                                        <Image
+                                            src="/logos/christ.png"
+                                            alt="Christ University"
+                                            fill
+                                            className="object-contain"
+                                        />
+                                    </div>
+                                    <div>
+                                        <h3 className="font-bold text-gray-900">Bachelor of Technology (B.Tech)</h3>
+                                        <p className="text-sm text-gray-600">Christ University, Bengaluru</p>
+                                    </div>
                                 </div>
                                 <span className="text-sm text-gray-500">2024 - 2028 (Expected)</span>
                             </div>

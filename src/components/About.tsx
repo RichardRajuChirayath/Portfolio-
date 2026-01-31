@@ -147,8 +147,14 @@ export const About = () => {
                         {/* Graduation Card */}
                         <div className="p-6 rounded-[32px] bg-gradient-to-br from-brand-primary/10 via-transparent to-transparent border border-white/5 flex items-center justify-between group">
                             <div className="flex items-center gap-4">
-                                <div className="w-10 h-10 rounded-xl bg-brand-primary/20 flex items-center justify-center text-brand-primary">
-                                    <Sparkles className="w-5 h-5" />
+                                <div className="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center p-1.5 overflow-hidden">
+                                    <Image
+                                        src="/logos/christ.png"
+                                        alt="Christ University"
+                                        width={28}
+                                        height={28}
+                                        className="object-contain"
+                                    />
                                 </div>
                                 <div>
                                     <div className="text-white font-bold">B.Tech CSE '28</div>

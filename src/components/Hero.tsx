@@ -40,7 +40,10 @@ export const Hero = () => {
                         >
                             <h1 className="text-7xl md:text-8xl lg:text-9xl font-black tracking-tighter leading-[0.9]">
                                 <motion.span
-                                    className="block text-white"
+                                    className="block text-transparent bg-clip-text"
+                                    style={{
+                                        WebkitTextStroke: '2px #ffffff',
+                                    }}
                                     initial={{ opacity: 0 }}
                                     animate={{ opacity: 1 }}
                                     transition={{ duration: 0.5, delay: 0.3 }}

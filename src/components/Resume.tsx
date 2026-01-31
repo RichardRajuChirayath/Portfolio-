@@ -116,22 +116,7 @@ export const Resume = () => {
                                         <li>Developing innovative approaches to AI-driven software development</li>
                                     </ul>
                                 </div>
-
-                                {/* Clyentra */}
-                                <div>
-                                    <div className="flex justify-between items-start mb-1">
-                                        <div>
-                                            <h3 className="font-bold text-gray-900">Full-Stack Developer</h3>
-                                            <p className="text-sm text-gray-600">Clyentra</p>
-                                        </div>
-                                        <span className="text-sm text-gray-500">2025 - Present</span>
-                                    </div>
-                                    <ul className="list-disc list-inside text-sm text-gray-700 space-y-1 ml-1">
-                                        <li>Built an AI-powered workspace platform for creative agencies</li>
-                                        <li>Developed agentic AI features that reduced manual task coordination by 40%</li>
-                                        <li>Implemented real-time collaboration features and project management tools</li>
-                                    </ul>
-                                </div>
+                                {/* Clyentra removed */}
                             </div>
                         </section>
 

@@ -30,14 +30,6 @@ const experiences = [
         skills: ["System Architecture", "AI Automation", "Scaling"]
     },
     {
-        role: "Full-Stack Developer",
-        company: "Clyentra",
-        period: "2025 - Present",
-        description: "Building an AI-powered workspace for creative agencies. Developed agentic features that reduced manual task coordination by 40%.",
-        current: true,
-        skills: ["Agentic AI", "Real-time Processing"]
-    },
-    {
         role: "Core Contributor",
         company: "Medaurin Project",
         period: "2024",

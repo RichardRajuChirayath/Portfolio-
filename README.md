@@ -10,7 +10,7 @@ I architect high-impact AI systems and premium full-stack solutions — turning 
 
 ### What I Build
 
-- **AI-Powered Products** — Groq, Llama, LangChain
+- **AI-Powered Products**
 - **Full-Stack Systems** — Next.js, TypeScript, React
 - **Production Infrastructure** — PostgreSQL, Supabase, Vercel, Railway
 

@@ -114,6 +114,9 @@ export const Hero = () => {
                                 <Image src="/logos/verblyn.png" alt="Verblyn Labs" width={16} height={16} className="rounded-sm" />
                                 <span>Founder @ Verblyn Labs</span>
                             </a>
+                            <div className="badge-legendary !bg-green-500/10 !border-green-500/20 !text-green-400 flex items-center gap-2">
+                                <span>🇮🇳 Govt. of India MSME</span>
+                            </div>
                             <a href="https://www.linkedin.com/company/qohesive/" target="_blank" className="badge-legendary !bg-cyan-500/10 !border-cyan-500/20 !text-cyan-400 flex items-center gap-2 hover:scale-105 transition-transform">
                                 <Image src="/logos/qohesive.png" alt="Qohesive" width={16} height={16} className="rounded-sm" />
                                 <span>Co-Founder @ Qohesive</span>

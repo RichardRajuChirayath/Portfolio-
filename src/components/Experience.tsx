@@ -15,7 +15,8 @@ const experiences = [
         period: "2024 - Present",
         description: "A product studio building user-centric AI solutions across EdTech and Healthcare. Creating technology that solves genuine problems with clarity and real-world impact.",
         current: true,
-        skills: ["AI Strategy", "Product Design", "Lead Engineering"]
+        skills: ["AI Strategy", "Product Design", "Lead Engineering"],
+        badge: "🇮🇳 Govt. of India Recognized MSME"
     },
     {
         role: "Co-Founder",
@@ -136,13 +137,20 @@ export const Experience = () => {
                                         <p className="text-lg text-muted-foreground leading-relaxed mb-6">
                                             {exp.description}
                                         </p>
-                                        <div className="flex flex-wrap gap-2">
+                                        <div className="flex flex-wrap gap-2 mb-4">
                                             {exp.skills.map((skill, j) => (
                                                 <span key={j} className="text-[10px] font-bold uppercase tracking-widest px-3 py-1.5 bg-brand-primary/5 text-brand-primary rounded-full border border-brand-primary/10">
                                                     {skill}
                                                 </span>
                                             ))}
                                         </div>
+                                        {exp.badge && (
+                                            <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-green-500/10 border border-green-500/20 rounded-lg w-fit">
+                                                <span className="text-[10px] font-bold uppercase tracking-widest text-green-400">
+                                                    {exp.badge}
+                                                </span>
+                                            </div>
+                                        )}
                                     </div>
                                 </div>
                             </div>

@@ -17,10 +17,34 @@ export const Contact = () => {
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
         setIsSubmitting(true);
-        await new Promise(resolve => setTimeout(resolve, 1500));
-        alert('Message sent successfully! I\'ll get back to you soon.');
-        setFormData({ name: '', email: '', message: '' });
-        setIsSubmitting(false);
+
+        try {
+            const response = await fetch("https://api.web3forms.com/submit", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                    Accept: "application/json",
+                },
+                body: JSON.stringify({
+                    access_key: "YOUR_ACCESS_KEY_HERE", // User needs to replace this
+                    name: formData.name,
+                    email: formData.email,
+                    message: formData.message,
+                }),
+            });
+
+            const result = await response.json();
+            if (result.success) {
+                alert('Message sent successfully! I\'ll get back to you soon.');
+                setFormData({ name: '', email: '', message: '' });
+            } else {
+                alert('Something went wrong. Please try again or email me directly.');
+            }
+        } catch (error) {
+            alert('Something went wrong. Please try again or email me directly.');
+        } finally {
+            setIsSubmitting(false);
+        }
     };
 
     return (
@@ -142,7 +166,7 @@ export const Contact = () => {
                                                 onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                                                 required
                                                 className="w-full px-6 py-4 bg-white/5 border border-white/5 rounded-2xl text-white placeholder-white/20 focus:outline-none focus:border-brand-primary/50 focus:bg-white/[0.08] transition-all"
-                                                placeholder="John Doe"
+                                                placeholder="Full Name"
                                             />
                                         </div>
                                         <div className="space-y-2">
@@ -153,7 +177,7 @@ export const Contact = () => {
                                                 onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                                                 required
                                                 className="w-full px-6 py-4 bg-white/5 border border-white/5 rounded-2xl text-white placeholder-white/20 focus:outline-none focus:border-brand-primary/50 focus:bg-white/[0.08] transition-all"
-                                                placeholder="john@example.com"
+                                                placeholder="Enter your email address"
                                             />
                                         </div>
                                     </div>

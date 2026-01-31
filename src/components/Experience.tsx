@@ -23,7 +23,7 @@ const experiences = [
         companyUrl: "https://www.linkedin.com/company/verblynlabs/",
         logo: "/logos/verblyn.png",
         period: "2025 - Present",
-        description: "A product studio building user-centric AI solutions across EdTech and Healthcare. Creating technology that solves genuine problems with clarity and real-world impact.",
+        description: "A multi-disciplinary product studio building user-centric AI solutions across various high-impact domains. Creating technology that solves genuine problems with clarity and real-world impact.",
         current: true,
         skills: ["AI Strategy", "Product Design", "Lead Engineering"],
         badge: "🇮🇳 Govt. of India Recognized MSME",

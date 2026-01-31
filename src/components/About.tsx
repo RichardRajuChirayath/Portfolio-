@@ -11,7 +11,7 @@ const ventures = [
     {
         name: "Verblyn Labs",
         role: "Founder & Technical Lead",
-        description: "A product studio building user-centric AI solutions across EdTech and Healthcare. Creating technology that solves genuine problems with clarity and real-world impact.",
+        description: "A multi-disciplinary product studio building user-centric AI solutions across various high-impact domains. Creating technology that solves genuine problems with clarity and real-world impact.",
         url: "https://www.linkedin.com/company/verblynlabs/",
         color: "from-brand-primary to-brand-secondary",
         logo: "/logos/verblyn.png"
@@ -66,14 +66,18 @@ export const About = () => {
                         </motion.div>
 
                         <span className="section-title">Genesis</span>
-                        <h2 className="section-heading text-5xl lg:text-7xl font-black tracking-tighter mb-10 text-white italic">Founder. <br />Engineer. <br />Visionary.</h2>
+                        <h2 className="section-heading text-6xl lg:text-8xl font-black tracking-tighter mb-10 text-white leading-[0.85] uppercase">
+                            Founder.<br />
+                            Engineer.<br />
+                            <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-primary to-brand-secondary">Visionary.</span>
+                        </h2>
 
                         <div className="space-y-8 text-xl text-muted-foreground leading-relaxed">
                             <p className="border-l-2 border-brand-primary/30 pl-6">
                                 I don't just write code; I <span className="text-white font-bold">architect ventures.</span> As a serial entrepreneur based in <span className="text-white">Bengaluru</span>, my journey is defined by the relentless pursuit of blending complex AI engineering with premium user experiences.
                             </p>
                             <p className="pl-6">
-                                At the age of 19, I am leading <span className="text-brand-primary font-bold">Verblyn Labs</span> and <span className="text-brand-secondary font-bold">Qohesive</span>—two startups aimed at redefining how AI integrates into education, healthcare, and software development cycles.
+                                At the age of 19, I am leading <span className="text-brand-primary font-bold">Verblyn Labs</span> and <span className="text-brand-secondary font-bold">Qohesive</span>—two startups aimed at redefining how AI integrates into high-impact industries and autonomous software development cycles.
                             </p>
                             <p className="pl-6">
                                 My philosophy is simple: <span className="italic text-white">Create technology that feels like magic but works like clockwork.</span> I bridge the gap between "what's possible" and "what's profitable."

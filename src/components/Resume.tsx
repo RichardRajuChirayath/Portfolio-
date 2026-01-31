@@ -72,7 +72,7 @@ export const Resume = () => {
                             </h2>
                             <p className="text-sm text-gray-700 leading-relaxed">
                                 Serial entrepreneur and Product Engineer with a proven track record of building and shipping production-ready applications.
-                                Founder of Verblyn Labs and Co-Founder of Qohesive. Expertise in full-stack development, AI integration, and product design.
+                                Founder of Verblyn Labs and Co-Founder of Qohesive. Expertise in architecting high-impact AI systems and full-stack solutions across diverse industries.
                                 Passionate about creating technology solutions that solve real-world problems with clarity and measurable impact.
                             </p>
                         </section>
@@ -94,7 +94,7 @@ export const Resume = () => {
                                         <span className="text-sm text-gray-500">2025 - Present</span>
                                     </div>
                                     <ul className="list-disc list-inside text-sm text-gray-700 space-y-1 ml-1">
-                                        <li>Founded a product studio focused on building user-centric AI solutions across EdTech and Healthcare domains</li>
+                                        <li>Founded a product studio focused on building user-centric AI solutions across various high-impact domains</li>
                                         <li>Led development of multiple production applications serving thousands of users</li>
                                         <li>Implemented AI-powered features using Groq, Llama, and other LLM technologies</li>
                                         <li>Managed end-to-end product lifecycle from ideation to deployment</li>

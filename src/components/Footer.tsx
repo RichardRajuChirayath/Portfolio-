@@ -101,7 +101,6 @@ export const Footer = () => {
                     <div className="flex items-center gap-1.5 text-sm text-white/30">
                         <span>Built with</span>
                         <Heart className="w-3.5 h-3.5 text-red-400 fill-red-400" />
-                        <span>in Bengaluru</span>
                     </div>
                 </div>
             </div>

@@ -27,7 +27,7 @@ export const Resume = () => {
                 <div className="max-w-[850px] mx-auto bg-white shadow-xl print:shadow-none">
 
                     {/* Resume Content */}
-                    <div className="p-10 print:p-12 font-serif text-gray-900 leading-tight">
+                    <div className="p-10 print:p-12 text-gray-900 leading-tight" style={{ fontFamily: "'Times New Roman', Times, serif" }}>
 
                         {/* Header - Centered Style */}
                         <header className="text-center mb-8">
@@ -42,7 +42,7 @@ export const Resume = () => {
                             </div>
                             <div className="text-[13px] text-gray-700 mt-1">
                                 <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/richard-raju-939186316" target="_blank" className="hover:underline">linkedin.com/in/richard-raju</a>
-                                <span className="mx-2 font-bold">Portolio:</span> <a href="https://richardraju.dev" target="_blank" className="hover:underline">richardraju.dev</a>
+                                <span className="mx-2 font-bold">Portfolio:</span> <a href="https://portfolio-amber-six-58.vercel.app/" target="_blank" className="hover:underline">www.aqmd.site</a>
                             </div>
                         </header>
 
@@ -96,21 +96,30 @@ export const Resume = () => {
                             <h2 className="text-lg font-bold border-b border-gray-800 pb-0.5 mb-3">Selected Projects</h2>
                             <div className="space-y-4">
                                 <div>
-                                    <h3 className="font-bold text-[14px] mb-1">Clyentra — AI Compliance Engine (Llama 3.3 + Agentic Workflows)</h3>
+                                    <div className="flex items-baseline gap-2 mb-1">
+                                        <h3 className="font-bold text-[14px]">Clyentra — AI Compliance Engine (Llama 3.3 + Agentic Workflows)</h3>
+                                        <a href="https://client-feedback-enforcer.vercel.app/" target="_blank" className="text-[12px] text-blue-600 hover:underline">[Live]</a>
+                                    </div>
                                     <ul className="list-disc list-outside ml-5 text-[13px] text-gray-700 space-y-0.5">
                                         <li>Built an enterprise-grade agentic AI for design agencies to extract action items from unstructured data.</li>
                                         <li>Achieved 95% accuracy in task extraction using Llama 70B models, resulting in 40% faster feedback processing.</li>
                                     </ul>
                                 </div>
                                 <div>
-                                    <h3 className="font-bold text-[14px] mb-1">AQMD — Cognitive Alignment Platform (Full-Stack + AI)</h3>
+                                    <div className="flex items-baseline gap-2 mb-1">
+                                        <h3 className="font-bold text-[14px]">AQMD — Cognitive Alignment Platform (Full-Stack + AI)</h3>
+                                        <a href="https://www.aqmd.site/" target="_blank" className="text-[12px] text-blue-600 hover:underline">[Live]</a>
+                                    </div>
                                     <ul className="list-disc list-outside ml-5 text-[13px] text-gray-700 space-y-0.5">
                                         <li>Developed a high-performance EdTech platform serving 3600+ active users with smart PDF parsing and OCR.</li>
                                         <li>Implemented predictive exam modeling and workflow-guided learning experiences using Next.js 15 and Groq.</li>
                                     </ul>
                                 </div>
                                 <div>
-                                    <h3 className="font-bold text-[14px] mb-1">Medaurin — Medication Safety Engine (Healthcare Workflow Tool)</h3>
+                                    <div className="flex items-baseline gap-2 mb-1">
+                                        <h3 className="font-bold text-[14px]">Medaurin — Medication Safety Engine (Healthcare Workflow Tool)</h3>
+                                        <a href="https://medaurin.vercel.app/" target="_blank" className="text-[12px] text-blue-600 hover:underline">[Live]</a>
+                                    </div>
                                     <ul className="list-disc list-outside ml-5 text-[13px] text-gray-700 space-y-0.5">
                                         <li>Built a safety-oriented guided-input system for structured medical interaction flows with complex drug-condition mapping.</li>
                                         <li>Validated medicine safety across 4+ global authorities using a proprietary 6-Factor Risk Engine.</li>

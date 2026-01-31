@@ -74,9 +74,9 @@
     h5,
     h6 {
         font-family: var(--font-heading);
-        font-weight: 600;
-        letter-spacing: -0.03em;
-        line-height: 1.1;
+        font-weight: 700;
+        letter-spacing: -0.04em;
+        line-height: 1;
     }
 }
 
@@ -110,7 +110,7 @@
     }
 
     .section-title {
-        @apply text-xs font-bold uppercase tracking-[0.3em] text-brand-primary mb-4 block;
+        @apply text-xs font-black uppercase tracking-[0.4em] text-brand-primary mb-4 block;
     }
 
     .section-heading {

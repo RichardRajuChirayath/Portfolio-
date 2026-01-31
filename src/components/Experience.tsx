@@ -8,6 +8,16 @@ import Image from 'next/image';
 
 const experiences = [
     {
+        role: "Co-Founder",
+        company: "Qohesive",
+        companyUrl: "https://www.linkedin.com/company/qohesive/",
+        logo: "/logos/qohesive.png",
+        period: "2025 - Present",
+        description: "Building a unified AI platform that simplifies how software is created, operated, and scaled. Unifying the entire tech stack into an AI that builds, runs, and scales apps autonomously.",
+        current: true,
+        skills: ["System Architecture", "AI Automation", "Scaling"]
+    },
+    {
         role: "Founder & Technical Lead",
         company: "Verblyn Labs",
         companyUrl: "https://www.linkedin.com/company/verblynlabs/",
@@ -18,16 +28,6 @@ const experiences = [
         skills: ["AI Strategy", "Product Design", "Lead Engineering"],
         badge: "🇮🇳 Govt. of India Recognized MSME",
         badgeSubtext: "UDYAM-KR-03-0647480"
-    },
-    {
-        role: "Co-Founder",
-        company: "Qohesive",
-        companyUrl: "https://www.linkedin.com/company/qohesive/",
-        logo: "/logos/qohesive.png",
-        period: "2025 - Present",
-        description: "Building a unified AI platform that simplifies how software is created, operated, and scaled. Unifying the entire tech stack into an AI that builds, runs, and scales apps autonomously.",
-        current: true,
-        skills: ["System Architecture", "AI Automation", "Scaling"]
     },
     {
         role: "Core Contributor",

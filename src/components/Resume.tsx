@@ -116,7 +116,6 @@ export const Resume = () => {
                                         <li>Developing innovative approaches to AI-driven software development</li>
                                     </ul>
                                 </div>
-                                {/* Clyentra removed */}
                             </div>
                         </section>
 

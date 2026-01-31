@@ -27,141 +27,226 @@ export const Resume = () => {
                 <div className="max-w-[850px] mx-auto bg-white shadow-xl print:shadow-none">
 
                     {/* Resume Content */}
-                    <div className="p-10 print:p-12 text-gray-900 leading-tight" style={{ fontFamily: "'Times New Roman', Times, serif" }}>
+                    <div className="p-10 print:p-8 font-['Inter',sans-serif] text-gray-900">
 
-                        {/* Header - Centered Style */}
-                        <header className="text-center mb-8">
-                            <h1 className="text-3xl font-bold mb-1">Richard Raju</h1>
-                            <p className="text-[14px] text-gray-800 mb-1">
-                                Product Engineer <span className="mx-1">•</span> Full-Stack Developer <span className="mx-1">•</span> AI Solutions Architect
+                        {/* Header */}
+                        <header className="border-b-2 border-gray-900 pb-4 mb-6">
+                            <h1 className="text-3xl font-bold tracking-tight text-gray-900 mb-1">
+                                RICHARD RAJU
+                            </h1>
+                            <p className="text-lg font-medium text-gray-700 mb-3">
+                                Product Engineer & Founder
                             </p>
-                            <p className="text-[13px] text-gray-700 mb-1">Bengaluru, Karnataka, India</p>
-                            <div className="text-[13px] text-gray-700 space-x-2">
-                                <span><strong>Mobile:</strong> 9606669730</span>
-                                <span><strong>Email:</strong> richardrajuchirayath@gmail.com</span>
-                            </div>
-                            <div className="text-[13px] text-gray-700 mt-1">
-                                <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/richard-raju-939186316" target="_blank" className="hover:underline">linkedin.com/in/richard-raju</a>
-                                <span className="mx-2 font-bold">Portfolio:</span> <a href="https://portfolio-amber-six-58.vercel.app/" target="_blank" className="hover:underline">www.aqmd.site</a>
+                            <div className="flex flex-wrap gap-x-5 gap-y-1 text-sm text-gray-600">
+                                <a href="mailto:richardrajuchirayath@gmail.com" className="flex items-center gap-1.5 hover:text-gray-900">
+                                    <Mail className="w-3.5 h-3.5" />
+                                    richardrajuchirayath@gmail.com
+                                </a>
+                                <a href="tel:+919606669730" className="flex items-center gap-1.5 hover:text-gray-900">
+                                    <Phone className="w-3.5 h-3.5" />
+                                    +91 9606669730
+                                </a>
+                                <a href="https://linkedin.com/in/richard-raju-939186316" target="_blank" className="flex items-center gap-1.5 hover:text-gray-900">
+                                    <Linkedin className="w-3.5 h-3.5" />
+                                    linkedin.com/in/richard-raju
+                                </a>
+                                <a href="https://github.com/RichardRajuChirayath" target="_blank" className="flex items-center gap-1.5 hover:text-gray-900">
+                                    <Github className="w-3.5 h-3.5" />
+                                    github.com/RichardRajuChirayath
+                                </a>
+                                <a href="https://portfolio-amber-six-58.vercel.app/" target="_blank" className="flex items-center gap-1.5 hover:text-gray-900 font-semibold text-blue-600">
+                                    <Globe className="w-3.5 h-3.5" />
+                                    Portfolio
+                                </a>
+                                <span className="flex items-center gap-1.5">
+                                    <MapPin className="w-3.5 h-3.5" />
+                                    Bengaluru, India
+                                </span>
                             </div>
                         </header>
 
-                        {/* Professional Summary */}
+                        {/* Summary */}
                         <section className="mb-6">
-                            <h2 className="text-lg font-bold border-b border-gray-800 pb-0.5 mb-2">Professional Summary</h2>
-                            <p className="text-[13px] text-gray-700 leading-relaxed text-justify italic">
-                                Product-focused engineer and founder building reliable, workflow-driven software systems across web and mobile platforms.
-                                Strong foundation in full-stack engineering, AI integration, and UX-flow design — with emphasis on clarity,
-                                interaction behavior, and deployable real-world solutions.
+                            <h2 className="text-sm font-bold uppercase tracking-wider text-gray-900 border-b border-gray-300 pb-1 mb-3">
+                                Professional Summary
+                            </h2>
+                            <p className="text-sm text-gray-700 leading-relaxed">
+                                Serial entrepreneur and Product Engineer with a proven track record of building and shipping production-ready applications.
+                                Founder of Verblyn Labs and Co-Founder of Qohesive. Expertise in full-stack development, AI integration, and product design.
+                                Passionate about creating technology solutions that solve real-world problems with clarity and measurable impact.
                             </p>
                         </section>
 
                         {/* Experience */}
                         <section className="mb-6">
-                            <h2 className="text-lg font-bold border-b border-gray-800 pb-0.5 mb-3">Experience</h2>
-                            <div className="space-y-4">
+                            <h2 className="text-sm font-bold uppercase tracking-wider text-gray-900 border-b border-gray-300 pb-1 mb-3">
+                                Experience
+                            </h2>
+
+                            <div className="space-y-5">
                                 {/* Verblyn Labs */}
                                 <div>
-                                    <div className="flex justify-between items-baseline mb-0.5">
-                                        <h3 className="font-bold text-[14px]">Founder & Technical Lead — Verblyn Labs</h3>
-                                        <span className="text-[13px] italic">2024 — Present</span>
+                                    <div className="flex justify-between items-start mb-1">
+                                        <div>
+                                            <h3 className="font-bold text-gray-900">Founder & Technical Lead</h3>
+                                            <p className="text-sm text-gray-600">Verblyn Labs</p>
+                                        </div>
+                                        <span className="text-sm text-gray-500">2024 - Present</span>
                                     </div>
-                                    <p className="text-[13px] text-gray-600 mb-1 italic">Bengaluru, India</p>
-                                    <ul className="list-disc list-outside ml-5 text-[13px] text-gray-700 space-y-0.5">
-                                        <li>Founded a product studio focused on building user-centric AI solutions across EdTech and Healthcare domains.</li>
-                                        <li>Led development of multiple production applications serving thousands of users with a focus on impact and scale.</li>
-                                        <li>Implemented AI-powered features using Groq, Llama, and other LLM technologies to automate complex workflows.</li>
-                                        <li>Managed end-to-end product lifecycle from ideation, system architecture to global deployment.</li>
+                                    <ul className="list-disc list-inside text-sm text-gray-700 space-y-1 ml-1">
+                                        <li>Founded a product studio focused on building user-centric AI solutions across EdTech and Healthcare domains</li>
+                                        <li>Led development of multiple production applications serving thousands of users</li>
+                                        <li>Implemented AI-powered features using Groq, Llama, and other LLM technologies</li>
+                                        <li>Managed end-to-end product lifecycle from ideation to deployment</li>
                                     </ul>
                                 </div>
 
                                 {/* Qohesive */}
                                 <div>
-                                    <div className="flex justify-between items-baseline mb-0.5">
-                                        <h3 className="font-bold text-[14px]">Co-Founder — Qohesive</h3>
-                                        <span className="text-[13px] italic">2025 — Present</span>
+                                    <div className="flex justify-between items-start mb-1">
+                                        <div>
+                                            <h3 className="font-bold text-gray-900">Co-Founder</h3>
+                                            <p className="text-sm text-gray-600">Qohesive</p>
+                                        </div>
+                                        <span className="text-sm text-gray-500">2025 - Present</span>
                                     </div>
-                                    <p className="text-[13px] text-gray-600 mb-1 italic">Remote / Bengaluru</p>
-                                    <ul className="list-disc list-outside ml-5 text-[13px] text-gray-700 space-y-0.5">
-                                        <li>Building a unified AI platform that simplifies how complex software is created, operated, and scaled autonomously.</li>
-                                        <li>Architecting self-healing cloud systems and agentic workflows to unify the entire development tech stack.</li>
-                                        <li>Developing innovative approaches to AI-driven software development and deployment automation.</li>
+                                    <ul className="list-disc list-inside text-sm text-gray-700 space-y-1 ml-1">
+                                        <li>Building a unified AI platform that simplifies software creation, operation, and scaling</li>
+                                        <li>Architecting systems that enable AI to build, run, and scale applications autonomously</li>
+                                        <li>Developing innovative approaches to AI-driven software development</li>
                                     </ul>
                                 </div>
                             </div>
                         </section>
 
-                        {/* Selected Projects */}
+                        {/* Projects */}
                         <section className="mb-6">
-                            <h2 className="text-lg font-bold border-b border-gray-800 pb-0.5 mb-3">Selected Projects</h2>
+                            <h2 className="text-sm font-bold uppercase tracking-wider text-gray-900 border-b border-gray-300 pb-1 mb-3">
+                                Key Projects
+                            </h2>
+
                             <div className="space-y-4">
                                 <div>
-                                    <div className="flex items-baseline gap-2 mb-1">
-                                        <h3 className="font-bold text-[14px]">Clyentra — AI Compliance Engine (Llama 3.3 + Agentic Workflows)</h3>
-                                        <a href="https://client-feedback-enforcer.vercel.app/" target="_blank" className="text-[12px] text-blue-600 hover:underline">[Live]</a>
+                                    <div className="flex justify-between items-start">
+                                        <div className="flex items-center gap-2">
+                                            <h3 className="font-bold text-gray-900">Clyentra - AI Compliance Engine</h3>
+                                            <a href="https://client-feedback-enforcer-production.up.railway.app/" target="_blank" className="text-blue-600 hover:underline text-xs flex items-center gap-1">
+                                                <ExternalLink className="w-3 h-3" />
+                                                Live
+                                            </a>
+                                        </div>
+                                        <span className="text-sm text-gray-500">2025</span>
                                     </div>
-                                    <ul className="list-disc list-outside ml-5 text-[13px] text-gray-700 space-y-0.5">
-                                        <li>Built an enterprise-grade agentic AI for design agencies to extract action items from unstructured data.</li>
-                                        <li>Achieved 95% accuracy in task extraction using Llama 70B models, resulting in 40% faster feedback processing.</li>
-                                    </ul>
+                                    <p className="text-sm text-gray-700">
+                                        Client Feedback Enforcer for design agencies using Llama 3.3 (70B). Extracts action items from client emails and creates non-negotiable checklists. 40% faster feedback processing.
+                                    </p>
                                 </div>
-                                <div>
-                                    <div className="flex items-baseline gap-2 mb-1">
-                                        <h3 className="font-bold text-[14px]">AQMD — Cognitive Alignment Platform (Full-Stack + AI)</h3>
-                                        <a href="https://www.aqmd.site/" target="_blank" className="text-[12px] text-blue-600 hover:underline">[Live]</a>
-                                    </div>
-                                    <ul className="list-disc list-outside ml-5 text-[13px] text-gray-700 space-y-0.5">
-                                        <li>Developed a high-performance EdTech platform serving 3600+ active users with smart PDF parsing and OCR.</li>
-                                        <li>Implemented predictive exam modeling and workflow-guided learning experiences using Next.js 15 and Groq.</li>
-                                    </ul>
-                                </div>
-                                <div>
-                                    <div className="flex items-baseline gap-2 mb-1">
-                                        <h3 className="font-bold text-[14px]">Medaurin — Medication Safety Engine (Healthcare Workflow Tool)</h3>
-                                        <a href="https://medaurin.vercel.app/" target="_blank" className="text-[12px] text-blue-600 hover:underline">[Live]</a>
-                                    </div>
-                                    <ul className="list-disc list-outside ml-5 text-[13px] text-gray-700 space-y-0.5">
-                                        <li>Built a safety-oriented guided-input system for structured medical interaction flows with complex drug-condition mapping.</li>
-                                        <li>Validated medicine safety across 4+ global authorities using a proprietary 6-Factor Risk Engine.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </section>
 
-                        {/* Core Strengths */}
-                        <section className="mb-6">
-                            <h2 className="text-lg font-bold border-b border-gray-800 pb-0.5 mb-2">Core Strengths</h2>
-                            <p className="text-[13px] text-gray-700">
-                                Product Thinking <span className="mx-1">•</span> UX-Flow Design <span className="mx-1">•</span> System Architecture <span className="mx-1">•</span> Deployment Ownership <span className="mx-1">•</span> Decision-Logic Modeling <span className="mx-1">•</span> Rule-Based Workflows <span className="mx-1">•</span> Independent Execution
-                            </p>
-                        </section>
-
-                        {/* Education */}
-                        <section className="mb-6">
-                            <h2 className="text-lg font-bold border-b border-gray-800 pb-0.5 mb-2">Education</h2>
-                            <div>
-                                <div className="flex justify-between items-baseline mb-0.5">
-                                    <h3 className="font-bold text-[14px]">Christ University, Bangalore</h3>
-                                    <span className="text-[13px] italic">Jan 2024 — Mar 2028 (Expected)</span>
+                                <div>
+                                    <div className="flex justify-between items-start">
+                                        <div className="flex items-center gap-2">
+                                            <h3 className="font-bold text-gray-900">AQMD - Cognitive Alignment Platform</h3>
+                                            <a href="https://www.aqmd.site/" target="_blank" className="text-blue-600 hover:underline text-xs flex items-center gap-1">
+                                                <ExternalLink className="w-3 h-3" />
+                                                Live
+                                            </a>
+                                        </div>
+                                        <span className="text-sm text-gray-500">2023 - 2024</span>
+                                    </div>
+                                    <p className="text-sm text-gray-700">
+                                        High-performance EdTech platform with 36+ active users. Features smart PDF engine, OCR integration, and predictive exam modeling. Built with Next.js 15+, TypeScript, and Groq AI.
+                                    </p>
                                 </div>
-                                <p className="text-[13px] text-gray-700">B.Tech, Computer Science Engineering (Artificial Intelligence & Machine Learning)</p>
+
+                                <div>
+                                    <div className="flex justify-between items-start">
+                                        <div className="flex items-center gap-2">
+                                            <h3 className="font-bold text-gray-900">Medaurin - Medication Safety Engine</h3>
+                                            <a href="https://medaurin-web-production.up.railway.app/" target="_blank" className="text-blue-600 hover:underline text-xs flex items-center gap-1">
+                                                <ExternalLink className="w-3 h-3" />
+                                                Live
+                                            </a>
+                                        </div>
+                                        <span className="text-sm text-gray-500">2024</span>
+                                    </div>
+                                    <p className="text-sm text-gray-700">
+                                        HealthTech application featuring 6-Factor proprietary Risk Engine. Validates medicine safety across 4+ global authorities with drug-condition mapping and safety alerts.
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <div className="flex justify-between items-start">
+                                        <div className="flex items-center gap-2">
+                                            <h3 className="font-bold text-gray-900">Personal Portfolio - Interactive Experience</h3>
+                                            <a href="https://portfolio-amber-six-58.vercel.app/" target="_blank" className="text-blue-600 hover:underline text-xs flex items-center gap-1">
+                                                <ExternalLink className="w-3 h-3" />
+                                                Live
+                                            </a>
+                                        </div>
+                                        <span className="text-sm text-gray-500">2025</span>
+                                    </div>
+                                    <p className="text-sm text-gray-700">
+                                        Premium, high-performance portfolio engineered with Next.js, Framer Motion, and Tailwind CSS. Features custom cursor interactions, editorial typography, and high-fidelity animations.
+                                    </p>
+                                </div>
                             </div>
                         </section>
 
                         {/* Skills */}
                         <section className="mb-6">
-                            <h2 className="text-lg font-bold border-b border-gray-800 pb-0.5 mb-2">Skills</h2>
-                            <p className="text-[13px] text-gray-700">
-                                Full-Stack Development <span className="mx-1">•</span> TypeScript/Next.js <span className="mx-1">•</span> Python/AI APIs <span className="mx-1">•</span> PostgreSQL/NoSQL <span className="mx-1">•</span> Product Engineering <span className="mx-1">•</span> Workflow Modeling <span className="mx-1">•</span> Cloud Infrastructure <span className="mx-1">•</span> Testing & Deployment
-                            </p>
+                            <h2 className="text-sm font-bold uppercase tracking-wider text-gray-900 border-b border-gray-300 pb-1 mb-3">
+                                Technical Skills
+                            </h2>
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
+                                <div>
+                                    <span className="font-semibold text-gray-900">Languages:</span>
+                                    <span className="text-gray-700"> TypeScript, JavaScript, Python, Java, SQL</span>
+                                </div>
+                                <div>
+                                    <span className="font-semibold text-gray-900">Frontend:</span>
+                                    <span className="text-gray-700"> React, Next.js, Tailwind CSS, Framer Motion</span>
+                                </div>
+                                <div>
+                                    <span className="font-semibold text-gray-900">Backend:</span>
+                                    <span className="text-gray-700"> Node.js, Express, REST APIs, Prisma</span>
+                                </div>
+                                <div>
+                                    <span className="font-semibold text-gray-900">AI/ML:</span>
+                                    <span className="text-gray-700"> Groq, Llama, LangChain, OpenAI API</span>
+                                </div>
+                                <div>
+                                    <span className="font-semibold text-gray-900">Databases:</span>
+                                    <span className="text-gray-700"> PostgreSQL, MongoDB, Supabase, Firebase</span>
+                                </div>
+                                <div>
+                                    <span className="font-semibold text-gray-900">Tools:</span>
+                                    <span className="text-gray-700"> Git, Docker, Vercel, Figma, VS Code</span>
+                                </div>
+                            </div>
                         </section>
 
-                        {/* Languages */}
+                        {/* Education */}
                         <section>
-                            <h2 className="text-lg font-bold border-b border-gray-800 pb-0.5 mb-2">Languages</h2>
-                            <p className="text-[13px] text-gray-700">
-                                English (Full Professional) <span className="mx-1">•</span> Malayalam (Native) <span className="mx-1">•</span> Kannada (Working) <span className="mx-1">•</span> Hindi (Elementary) <span className="mx-1">•</span> French (Elementary)
-                            </p>
+                            <h2 className="text-sm font-bold uppercase tracking-wider text-gray-900 border-b border-gray-300 pb-1 mb-3">
+                                Education
+                            </h2>
+                            <div className="flex justify-between items-start">
+                                <div className="flex gap-4">
+                                    <div className="relative w-10 h-10 shrink-0 border border-gray-100 rounded-md overflow-hidden bg-white">
+                                        <Image
+                                            src="/logos/christ.png"
+                                            alt="Christ University"
+                                            fill
+                                            className="object-contain"
+                                        />
+                                    </div>
+                                    <div>
+                                        <h3 className="font-bold text-gray-900">Bachelor of Technology (B.Tech)</h3>
+                                        <p className="text-sm text-gray-600">Christ University, Bengaluru</p>
+                                    </div>
+                                </div>
+                                <span className="text-sm text-gray-500">2024 - 2028 (Expected)</span>
+                            </div>
                         </section>
 
                     </div>

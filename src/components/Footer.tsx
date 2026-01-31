@@ -3,6 +3,8 @@
 import React from 'react';
 import { Github, Linkedin, Mail, Heart, ArrowUpRight, Phone } from 'lucide-react';
 
+import Image from 'next/image';
+
 const socialLinks = [
     { icon: <Github className="w-4 h-4" />, href: "https://github.com/RichardRajuChirayath", label: "GitHub" },
     { icon: <Linkedin className="w-4 h-4" />, href: "https://linkedin.com/in/richard-raju-939186316", label: "LinkedIn" },
@@ -28,8 +30,13 @@ export const Footer = () => {
                     {/* Brand */}
                     <div>
                         <div className="flex items-center gap-3 mb-4">
-                            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-brand-primary to-brand-secondary flex items-center justify-center font-bold text-white">
-                                R
+                            <div className="relative w-12 h-12 rounded-xl overflow-hidden border border-white/10">
+                                <Image
+                                    src="/richard.png"
+                                    alt="Richard Raju"
+                                    fill
+                                    className="object-cover"
+                                />
                             </div>
                             <div>
                                 <div className="font-bold text-white">Richard Raju</div>

@@ -54,9 +54,9 @@ export const Resume = () => {
                                     <Github className="w-3.5 h-3.5" />
                                     github.com/RichardRajuChirayath
                                 </a>
-                                <a href="https://richardraju.dev" target="_blank" className="flex items-center gap-1.5 hover:text-gray-900 font-semibold text-blue-600">
+                                <a href="https://portfolio-amber-six-58.vercel.app/" target="_blank" className="flex items-center gap-1.5 hover:text-gray-900 font-semibold text-blue-600">
                                     <Globe className="w-3.5 h-3.5" />
-                                    richardraju.dev
+                                    richardraju.dev (Live)
                                 </a>
                                 <span className="flex items-center gap-1.5">
                                     <MapPin className="w-3.5 h-3.5" />
@@ -187,6 +187,22 @@ export const Resume = () => {
                                     </div>
                                     <p className="text-sm text-gray-700">
                                         HealthTech application featuring 6-Factor proprietary Risk Engine. Validates medicine safety across 4+ global authorities with drug-condition mapping and safety alerts.
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <div className="flex justify-between items-start">
+                                        <div className="flex items-center gap-2">
+                                            <h3 className="font-bold text-gray-900">Personal Portfolio - Interactive Experience</h3>
+                                            <a href="https://portfolio-amber-six-58.vercel.app/" target="_blank" className="text-blue-600 hover:underline text-xs flex items-center gap-1">
+                                                <ExternalLink className="w-3 h-3" />
+                                                Live
+                                            </a>
+                                        </div>
+                                        <span className="text-sm text-gray-500">2025</span>
+                                    </div>
+                                    <p className="text-sm text-gray-700">
+                                        Premium, high-performance portfolio engineered with Next.js, Framer Motion, and Tailwind CSS. Features custom cursor interactions, editorial typography, and high-fidelity animations.
                                     </p>
                                 </div>
                             </div>

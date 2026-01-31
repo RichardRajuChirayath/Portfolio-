@@ -56,7 +56,7 @@ export const Resume = () => {
                                 </a>
                                 <a href="https://portfolio-amber-six-58.vercel.app/" target="_blank" className="flex items-center gap-1.5 hover:text-gray-900 font-semibold text-blue-600">
                                     <Globe className="w-3.5 h-3.5" />
-                                    richardraju.dev (Live)
+                                    Portfolio
                                 </a>
                                 <span className="flex items-center gap-1.5">
                                     <MapPin className="w-3.5 h-3.5" />

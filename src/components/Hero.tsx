@@ -31,23 +31,70 @@ export const Hero = () => {
                             <span className="text-[11px] font-bold uppercase tracking-[0.2em] text-white/70">Available for Partnerships</span>
                         </motion.div>
 
-                        {/* Title */}
+                        {/* Title - Editorial Design with Typing Animation */}
                         <motion.div
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.8, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
+                            className="mb-6"
                         >
-                            <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 leading-[1.05]">
-                                <span className="block text-white">Hi, I'm</span>
-                                <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-primary via-brand-secondary to-brand-primary bg-[size:200%_auto] animate-gradient">Richard.</span>
+                            <h1 className="text-7xl md:text-8xl lg:text-9xl font-black tracking-tighter leading-[0.9]">
+                                <motion.span
+                                    className="block text-white"
+                                    initial={{ opacity: 0 }}
+                                    animate={{ opacity: 1 }}
+                                    transition={{ duration: 0.5, delay: 0.3 }}
+                                >
+                                    {/* Typing animation for RICHARD */}
+                                    {"RICHARD".split("").map((char, i) => (
+                                        <motion.span
+                                            key={i}
+                                            initial={{ opacity: 0, y: 20 }}
+                                            animate={{ opacity: 1, y: 0 }}
+                                            transition={{ duration: 0.1, delay: 0.4 + i * 0.08 }}
+                                        >
+                                            {char}
+                                        </motion.span>
+                                    ))}
+                                </motion.span>
+                                <motion.span
+                                    className="block text-transparent bg-clip-text"
+                                    style={{
+                                        WebkitTextStroke: '2px #8b5cf6',
+                                    }}
+                                    initial={{ opacity: 0 }}
+                                    animate={{ opacity: 1 }}
+                                    transition={{ duration: 0.5, delay: 1.0 }}
+                                >
+                                    {/* Typing animation for RAJU with stroke effect */}
+                                    {"RAJU.".split("").map((char, i) => (
+                                        <motion.span
+                                            key={i}
+                                            initial={{ opacity: 0, y: 20 }}
+                                            animate={{ opacity: 1, y: 0 }}
+                                            transition={{ duration: 0.1, delay: 1.1 + i * 0.1 }}
+                                        >
+                                            {char}
+                                        </motion.span>
+                                    ))}
+                                </motion.span>
                             </h1>
+                            {/* Role subtitle */}
+                            <motion.p
+                                initial={{ opacity: 0, x: -20 }}
+                                animate={{ opacity: 1, x: 0 }}
+                                transition={{ duration: 0.6, delay: 1.6 }}
+                                className="text-lg md:text-xl font-medium text-white/40 tracking-[0.3em] uppercase mt-4"
+                            >
+                                Product Engineer & Founder
+                            </motion.p>
                         </motion.div>
 
                         {/* Subtitle */}
                         <motion.p
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.8, delay: 0.2 }}
+                            transition={{ duration: 0.8, delay: 1.8 }}
                             className="text-xl md:text-2xl text-white/50 font-medium mb-10 max-w-xl"
                         >
                             I build <span className="text-white italic">startups that ship.</span> Serial entrepreneur turning ideas into production-ready products.

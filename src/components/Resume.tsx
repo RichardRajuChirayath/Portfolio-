@@ -54,6 +54,10 @@ export const Resume = () => {
                                     <Github className="w-3.5 h-3.5" />
                                     github.com/RichardRajuChirayath
                                 </a>
+                                <a href="https://richardraju.dev" target="_blank" className="flex items-center gap-1.5 hover:text-gray-900 font-semibold text-blue-600">
+                                    <Globe className="w-3.5 h-3.5" />
+                                    richardraju.dev
+                                </a>
                                 <span className="flex items-center gap-1.5">
                                     <MapPin className="w-3.5 h-3.5" />
                                     Bengaluru, India

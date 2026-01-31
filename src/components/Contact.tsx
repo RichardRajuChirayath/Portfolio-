@@ -189,7 +189,7 @@ export const Contact = () => {
                                             required
                                             rows={5}
                                             className="w-full px-6 py-4 bg-white/5 border border-white/5 rounded-2xl text-white placeholder-white/20 focus:outline-none focus:border-brand-primary/50 focus:bg-white/[0.08] transition-all resize-none"
-                                            placeholder="Tell me about your project..."
+                                            placeholder="Convey your message"
                                         />
                                     </div>
                                     <button

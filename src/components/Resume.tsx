@@ -95,7 +95,6 @@ export const Resume = () => {
                                     </div>
                                     <ul className="list-disc list-inside text-sm text-gray-700 space-y-1 ml-1">
                                         <li>Founded a product studio focused on building user-centric AI solutions across various high-impact domains</li>
-                                        <li>Led development of multiple production applications serving thousands of users</li>
                                         <li>Implemented AI-powered features using Groq, Llama, and other LLM technologies</li>
                                         <li>Managed end-to-end product lifecycle from ideation to deployment</li>
                                     </ul>
@@ -212,15 +211,15 @@ export const Resume = () => {
                                 </div>
                                 <div>
                                     <span className="font-semibold text-gray-900">AI/ML:</span>
-                                    <span className="text-gray-700"> Groq, Llama, LangChain, OpenAI API</span>
+                                    <span className="text-gray-700"> Groq, Llama, LangChain</span>
                                 </div>
                                 <div>
                                     <span className="font-semibold text-gray-900">Databases:</span>
-                                    <span className="text-gray-700"> PostgreSQL, MongoDB, Supabase, Firebase</span>
+                                    <span className="text-gray-700"> PostgreSQL, Supabase, Firebase</span>
                                 </div>
                                 <div>
                                     <span className="font-semibold text-gray-900">Tools:</span>
-                                    <span className="text-gray-700"> Git, Docker, Vercel, Figma, VS Code</span>
+                                    <span className="text-gray-700"> Git, Docker, Vercel, Railway, WordPress, VS Code</span>
                                 </div>
                             </div>
                         </section>
@@ -245,7 +244,7 @@ export const Resume = () => {
                                         <p className="text-sm text-gray-600">Christ University, Bengaluru</p>
                                     </div>
                                 </div>
-                                <span className="text-sm text-gray-500">2025 - 2029 (Expected)</span>
+                                <span className="text-sm text-gray-500">2024 - 2028 (Expected)</span>
                             </div>
                         </section>
 

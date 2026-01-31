@@ -73,7 +73,7 @@ export const About = () => {
                                 I don't just write code; I <span className="text-white font-bold">architect ventures.</span> As a serial entrepreneur based in <span className="text-white">Bengaluru</span>, my journey is defined by the relentless pursuit of blending complex AI engineering with premium user experiences.
                             </p>
                             <p className="pl-6">
-                                At the age of 18, I am leading <span className="text-brand-primary font-bold">Verblyn Labs</span> and <span className="text-brand-secondary font-bold">Qohesive</span>—two startups aimed at redefining how AI integrates into education, healthcare, and software development cycles.
+                                At the age of 19, I am leading <span className="text-brand-primary font-bold">Verblyn Labs</span> and <span className="text-brand-secondary font-bold">Qohesive</span>—two startups aimed at redefining how AI integrates into education, healthcare, and software development cycles.
                             </p>
                             <p className="pl-6">
                                 My philosophy is simple: <span className="italic text-white">Create technology that feels like magic but works like clockwork.</span> I bridge the gap between "what's possible" and "what's profitable."
@@ -83,7 +83,7 @@ export const About = () => {
                         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16">
                             {[
                                 { value: "2", label: "Ventures", icon: <Target className="w-4 h-4" /> },
-                                { value: "18", label: "Years Old", icon: <Sparkles className="w-4 h-4" /> },
+                                { value: "19", label: "Years Old", icon: <Sparkles className="w-4 h-4" /> },
                                 { value: "3+", label: "Products", icon: <Rocket className="w-4 h-4" /> },
                                 { value: "24/7", label: "Building", icon: <Zap className="w-4 h-4" /> },
                             ].map((stat, i) => (

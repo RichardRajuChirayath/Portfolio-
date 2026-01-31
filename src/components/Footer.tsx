@@ -1,12 +1,13 @@
 "use client";
 
 import React from 'react';
-import { Github, Linkedin, Mail, Heart, ArrowUpRight } from 'lucide-react';
+import { Github, Linkedin, Mail, Heart, ArrowUpRight, Phone } from 'lucide-react';
 
 const socialLinks = [
     { icon: <Github className="w-4 h-4" />, href: "https://github.com/RichardRajuChirayath", label: "GitHub" },
     { icon: <Linkedin className="w-4 h-4" />, href: "https://linkedin.com/in/richard-raju-939186316", label: "LinkedIn" },
     { icon: <Mail className="w-4 h-4" />, href: "mailto:richardrajuchirayath@gmail.com", label: "Email" },
+    { icon: <Phone className="w-4 h-4" />, href: "tel:+919606669730", label: "Phone" },
 ];
 
 const quickLinks = [

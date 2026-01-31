@@ -1,7 +1,7 @@
 "use client";
 
 import React from 'react';
-import { Mail, Phone, MapPin, Linkedin, Github, Globe, Download } from 'lucide-react';
+import { Mail, Phone, MapPin, Linkedin, Github, Globe, Download, ExternalLink } from 'lucide-react';
 
 export const Resume = () => {
     const handlePrint = () => {
@@ -40,6 +40,10 @@ export const Resume = () => {
                                 <a href="mailto:richardrajuchirayath@gmail.com" className="flex items-center gap-1.5 hover:text-gray-900">
                                     <Mail className="w-3.5 h-3.5" />
                                     richardrajuchirayath@gmail.com
+                                </a>
+                                <a href="tel:+919606669730" className="flex items-center gap-1.5 hover:text-gray-900">
+                                    <Phone className="w-3.5 h-3.5" />
+                                    +91 9606669730
                                 </a>
                                 <a href="https://linkedin.com/in/richard-raju-939186316" target="_blank" className="flex items-center gap-1.5 hover:text-gray-900">
                                     <Linkedin className="w-3.5 h-3.5" />
@@ -135,21 +139,49 @@ export const Resume = () => {
                             <div className="space-y-4">
                                 <div>
                                     <div className="flex justify-between items-start">
-                                        <h3 className="font-bold text-gray-900">AQMD - Cognitive Alignment Platform</h3>
-                                        <span className="text-sm text-gray-500">2023 - 2024</span>
+                                        <div className="flex items-center gap-2">
+                                            <h3 className="font-bold text-gray-900">Clyentra - AI Compliance Engine</h3>
+                                            <a href="https://client-feedback-enforcer-production.up.railway.app/" target="_blank" className="text-blue-600 hover:underline text-xs flex items-center gap-1">
+                                                <ExternalLink className="w-3 h-3" />
+                                                Live
+                                            </a>
+                                        </div>
+                                        <span className="text-sm text-gray-500">2024</span>
                                     </div>
                                     <p className="text-sm text-gray-700">
-                                        High-performance EdTech platform with smart PDF engine, OCR integration, and predictive exam modeling. Built with Next.js 15+, TypeScript, and Groq AI.
+                                        Client Feedback Enforcer for design agencies using Llama 3.3 (70B). Extracts action items from client emails and creates non-negotiable checklists. 40% faster feedback processing.
                                     </p>
                                 </div>
 
                                 <div>
                                     <div className="flex justify-between items-start">
-                                        <h3 className="font-bold text-gray-900">Medaurin - Medication Safety Engine</h3>
+                                        <div className="flex items-center gap-2">
+                                            <h3 className="font-bold text-gray-900">AQMD - Cognitive Alignment Platform</h3>
+                                            <a href="https://www.aqmd.site/" target="_blank" className="text-blue-600 hover:underline text-xs flex items-center gap-1">
+                                                <ExternalLink className="w-3 h-3" />
+                                                Live
+                                            </a>
+                                        </div>
+                                        <span className="text-sm text-gray-500">2023 - 2024</span>
+                                    </div>
+                                    <p className="text-sm text-gray-700">
+                                        High-performance EdTech platform with 36+ active users. Features smart PDF engine, OCR integration, and predictive exam modeling. Built with Next.js 15+, TypeScript, and Groq AI.
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <div className="flex justify-between items-start">
+                                        <div className="flex items-center gap-2">
+                                            <h3 className="font-bold text-gray-900">Medaurin - Medication Safety Engine</h3>
+                                            <a href="https://medaurin-web-production.up.railway.app/" target="_blank" className="text-blue-600 hover:underline text-xs flex items-center gap-1">
+                                                <ExternalLink className="w-3 h-3" />
+                                                Live
+                                            </a>
+                                        </div>
                                         <span className="text-sm text-gray-500">2024</span>
                                     </div>
                                     <p className="text-sm text-gray-700">
-                                        HealthTech application featuring medication safety analysis using MEDRT clinical data. Includes drug-condition mapping visualizations and safety alerts.
+                                        HealthTech application featuring 6-Factor proprietary Risk Engine. Validates medicine safety across 4+ global authorities with drug-condition mapping and safety alerts.
                                     </p>
                                 </div>
                             </div>

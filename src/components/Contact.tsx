@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Mail, Github, Linkedin, Send, MapPin, Sparkles, MessageSquare, ArrowUpRight } from 'lucide-react';
+import { Mail, Github, Linkedin, Send, MapPin, Sparkles, MessageSquare, ArrowUpRight, Phone } from 'lucide-react';
 
 const socialLinks = [
     { icon: <Github className="w-5 h-5" />, href: "https://github.com/RichardRajuChirayath", label: "GitHub" },
@@ -72,6 +72,19 @@ export const Contact = () => {
                                             <div className="text-[10px] font-bold uppercase tracking-widest text-white/30">Email Me</div>
                                             <a href="mailto:richardrajuchirayath@gmail.com" className="text-white font-medium hover:text-brand-primary transition-colors flex items-center gap-1">
                                                 richardrajuchirayath@gmail.com
+                                                <ArrowUpRight className="w-3.5 h-3.5" />
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div className="flex items-center gap-5 p-4 rounded-3xl bg-white/5 border border-white/5 group hover:border-green-500/20 transition-colors">
+                                        <div className="w-12 h-12 rounded-2xl bg-green-500/10 flex items-center justify-center text-green-400">
+                                            <Phone className="w-5 h-5" />
+                                        </div>
+                                        <div>
+                                            <div className="text-[10px] font-bold uppercase tracking-widest text-white/30">Call Me</div>
+                                            <a href="tel:+919606669730" className="text-white font-medium hover:text-green-400 transition-colors flex items-center gap-1">
+                                                +91 9606669730
                                                 <ArrowUpRight className="w-3.5 h-3.5" />
                                             </a>
                                         </div>

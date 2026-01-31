@@ -53,41 +53,25 @@ export const WordReveal = ({ text, className = "", delay = 0 }: TextRevealProps)
 };
 
 /**
- * Premium Text with a subtle, multi-stage entrance and shimmer.
- * Feels more "living" and high-end.
+ * Premium Text with a subtle entrance animation.
+ * Text is always visible - no transparent/clip effects that hide content.
  */
 export const PremiumText = ({ text, className = "", delay = 0 }: TextRevealProps) => {
     const mounted = useMounted();
+
+    // Always show visible text, even before mount
     if (!mounted) return <span className={className}>{text}</span>;
 
     return (
-        <div className={`relative inline-block ${className}`}>
-            {/* Shimmer Base with extra vertical depth */}
-            <motion.span
-                initial={{ opacity: 0, filter: "blur(8px)", scale: 0.98 }}
-                whileInView={{ opacity: 1, filter: "blur(0px)", scale: 1 }}
-                viewport={{ once: true }}
-                transition={{ duration: 1.8, delay, ease: [0.16, 1, 0.3, 1] }}
-                className="bg-clip-text text-transparent bg-gradient-to-b from-white via-white/95 to-white/40 block"
-            >
-                {text}
-            </motion.span>
-
-            {/* Moving Shimmer Light - Refined Timing */}
-            <motion.span
-                initial={{ x: "-150%", opacity: 0 }}
-                whileInView={{ x: "150%", opacity: [0, 1, 0] }}
-                viewport={{ once: true }}
-                transition={{
-                    duration: 3,
-                    delay: delay + 1,
-                    ease: [0.33, 1, 0.68, 1]
-                }}
-                className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent bg-clip-text text-transparent pointer-events-none select-none"
-            >
-                {text}
-            </motion.span>
-        </div>
+        <motion.span
+            initial={{ opacity: 0, y: 15 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 1, delay, ease: [0.16, 1, 0.3, 1] }}
+            className={`inline-block ${className}`}
+        >
+            {text}
+        </motion.span>
     );
 };
 

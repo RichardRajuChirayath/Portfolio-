@@ -28,22 +28,6 @@ const experiences = [
         skills: ["AI Strategy", "Product Design", "Lead Engineering"],
         badge: "🇮🇳 Govt. of India Recognized MSME",
         badgeSubtext: "UDYAM-KR-03-0647480"
-    },
-    {
-        role: "Core Contributor",
-        company: "Medaurin Project",
-        period: "2024",
-        description: "Developed the medication safety engine using MEDRT clinical data. Created data visualizations for drug-condition mappings.",
-        current: false,
-        skills: ["HealthTech", "Data Viz"]
-    },
-    {
-        role: "Lead Architect",
-        company: "AQMD Project",
-        period: "2023 - 2024",
-        description: "Engineered a high-performance Cognitive Alignment Platform. Built a smart PDF engine with OCR integration and predictive exam modeling using Next.js 15+ and Groq AI.",
-        current: false,
-        skills: ["Full Stack", "OCR", "ML Logic"]
     }
 ];
 

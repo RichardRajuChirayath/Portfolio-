@@ -1,28 +1,32 @@
-# Richard's Portfolio
+# Richard Raju
 
-A personal portfolio website for a Senior Frontend Engineer, built with React and Tailwind CSS. Inspired by the clean, minimal aesthetics of CRED, Linear, and Vercel.
+**Product Engineer & Founder** • Bengaluru, India
 
-## Tech Stack
+---
 
-- **Framework:** React (Vite)
-- **Styling:** Tailwind CSS
-- **Icons:** Lucide React
-- **Typography:** Inter (Google Fonts)
+Serial entrepreneur building products that ship. Founder of [Verblyn Labs](https://linkedin.com/company/verblynlabs) and Co-Founder of [Qohesive](https://linkedin.com/company/qohesive).
 
-## Key Features
+I architect high-impact AI systems and premium full-stack solutions — turning complex ideas into production-ready products with clarity and measurable impact.
 
-- **Responsive Design:** Fully optimized for mobile, tablet, and desktop.
-- **Project Highlighting:** Problem-Solution-Impact framework for describing engineering achievements.
-- **Skill Categorization:** Clear breakdown of Frontend, Backend, AI, and Tools.
-- **Smooth Navigation:** Scroll-based navigation with backdrop-blur effects.
+### What I Build
 
-## Getting Started
+- **AI-Powered Products** — Groq, Llama, LangChain
+- **Full-Stack Systems** — Next.js, TypeScript, React
+- **Production Infrastructure** — PostgreSQL, Supabase, Vercel, Railway
 
-1. Clone the repository
-2. Install dependencies: `npm install`
-3. Run dev server: `npm run dev`
-4. Build for production: `npm run build`
+### Live Projects
 
-## Deployment
+- [**AQMD**](https://www.aqmd.site/) — Cognitive Alignment Platform for students
+- [**Medaurin**](https://medaurin-web-production.up.railway.app/) — Medication Safety Engine
+- [**Clyentra**](https://client-feedback-enforcer-production.up.railway.app/) — AI Compliance Engine for design agencies
 
-This project is ready to be deployed directly to [Vercel](https://vercel.com). Simply link your GitHub repository and Vercel will handle the rest.
+### Connect
+
+- **Portfolio:** [portfolio-amber-six-58.vercel.app](https://portfolio-amber-six-58.vercel.app/)
+- **LinkedIn:** [linkedin.com/in/richard-raju-939186316](https://linkedin.com/in/richard-raju-939186316)
+- **GitHub:** [github.com/RichardRajuChirayath](https://github.com/RichardRajuChirayath)
+- **Email:** richardrajuchirayath@gmail.com
+
+---
+
+*B.Tech @ Christ University (2024 - 2028)*

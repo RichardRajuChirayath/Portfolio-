@@ -103,7 +103,7 @@ export const Resume = () => {
                                             <h3 className="font-bold text-gray-900">Co-Founder</h3>
                                             <p className="text-sm text-gray-600">Qohesive</p>
                                         </div>
-                                        <span className="text-sm text-gray-500">2024 - Present</span>
+                                        <span className="text-sm text-gray-500">2025 - Present</span>
                                     </div>
                                     <ul className="list-disc list-inside text-sm text-gray-700 space-y-1 ml-1">
                                         <li>Building a unified AI platform that simplifies software creation, operation, and scaling</li>
@@ -119,7 +119,7 @@ export const Resume = () => {
                                             <h3 className="font-bold text-gray-900">Full-Stack Developer</h3>
                                             <p className="text-sm text-gray-600">Clyentra</p>
                                         </div>
-                                        <span className="text-sm text-gray-500">2024 - Present</span>
+                                        <span className="text-sm text-gray-500">2025 - Present</span>
                                     </div>
                                     <ul className="list-disc list-inside text-sm text-gray-700 space-y-1 ml-1">
                                         <li>Built an AI-powered workspace platform for creative agencies</li>
@@ -146,7 +146,7 @@ export const Resume = () => {
                                                 Live
                                             </a>
                                         </div>
-                                        <span className="text-sm text-gray-500">2024</span>
+                                        <span className="text-sm text-gray-500">2025</span>
                                     </div>
                                     <p className="text-sm text-gray-700">
                                         Client Feedback Enforcer for design agencies using Llama 3.3 (70B). Extracts action items from client emails and creates non-negotiable checklists. 40% faster feedback processing.

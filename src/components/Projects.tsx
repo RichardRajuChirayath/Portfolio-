@@ -9,6 +9,7 @@ const projects = [
     {
         title: "Clyentra",
         category: "AI Compliance Engine",
+        year: "2025",
         tagline: "Never miss a client insight again",
         description: "A Client Feedback Enforcer for design agencies. Uses Llama 3.3 (70B) to extract action items from messy client emails and create non-negotiable checklists.",
         highlights: [
@@ -25,6 +26,7 @@ const projects = [
     {
         title: "AQMD",
         category: "Cognitive Alignment Platform",
+        year: "2024",
         tagline: "Transforming reading into quantified mastery",
         description: "Advanced Cognitive Engine V2.0 for high-performance learning. Bridges the gap between study materials and real-world exam performance through institutional-grade AI analysis.",
         highlights: [
@@ -42,6 +44,7 @@ const projects = [
     {
         title: "Medaurin",
         category: "Health-Security Ecosystem",
+        year: "2024",
         tagline: "The Proactive Medicine Guardian",
         description: "A premium healthcare security system featuring a '6-Factor' Risk Engine. Validates medicine safety across 4+ global authorities and protects users from drug conflicts.",
         highlights: [
@@ -135,12 +138,15 @@ export const Projects = () => {
 
                                     {/* Content Container */}
                                     <div className="p-8 lg:p-12 flex flex-col justify-center bg-surface-2/30 lg:w-[45%]">
-                                        <div className="flex items-center gap-3 mb-6">
+                                        <div className="flex items-center justify-between mb-6">
                                             <span
                                                 className="text-[10px] font-bold uppercase tracking-[0.2em] px-3 py-1 rounded-full border"
                                                 style={{ color: project.color, borderColor: `${project.color}40`, backgroundColor: `${project.color}10` }}
                                             >
                                                 {project.category}
+                                            </span>
+                                            <span className="text-[10px] font-bold uppercase tracking-[0.3em] text-white/30">
+                                                {project.year}
                                             </span>
                                         </div>
 

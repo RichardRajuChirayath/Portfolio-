@@ -22,7 +22,7 @@ const experiences = [
         company: "Qohesive",
         companyUrl: "https://www.linkedin.com/company/qohesive/",
         logo: "/logos/qohesive.png",
-        period: "2024 - Present",
+        period: "2025 - Present",
         description: "Building a unified AI platform that simplifies how software is created, operated, and scaled. Unifying the entire tech stack into an AI that builds, runs, and scales apps autonomously.",
         current: true,
         skills: ["System Architecture", "AI Automation", "Scaling"]
@@ -30,7 +30,7 @@ const experiences = [
     {
         role: "Full-Stack Developer",
         company: "Clyentra",
-        period: "2024 - Present",
+        period: "2025 - Present",
         description: "Building an AI-powered workspace for creative agencies. Developed agentic features that reduced manual task coordination by 40%.",
         current: true,
         skills: ["Agentic AI", "Real-time Processing"]

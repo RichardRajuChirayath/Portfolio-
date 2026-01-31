@@ -16,7 +16,8 @@ const experiences = [
         description: "A product studio building user-centric AI solutions across EdTech and Healthcare. Creating technology that solves genuine problems with clarity and real-world impact.",
         current: true,
         skills: ["AI Strategy", "Product Design", "Lead Engineering"],
-        badge: "🇮🇳 Govt. of India Recognized MSME"
+        badge: "🇮🇳 Govt. of India Recognized MSME",
+        badgeSubtext: "UDYAM-KR-03-0647480"
     },
     {
         role: "Co-Founder",
@@ -145,10 +146,15 @@ export const Experience = () => {
                                             ))}
                                         </div>
                                         {exp.badge && (
-                                            <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-green-500/10 border border-green-500/20 rounded-lg w-fit">
+                                            <div className="inline-flex flex-col gap-1 px-4 py-2 bg-green-500/10 border border-green-500/20 rounded-lg w-fit">
                                                 <span className="text-[10px] font-bold uppercase tracking-widest text-green-400">
                                                     {exp.badge}
                                                 </span>
+                                                {exp.badgeSubtext && (
+                                                    <span className="text-[9px] font-mono text-green-400/60">
+                                                        {exp.badgeSubtext}
+                                                    </span>
+                                                )}
                                             </div>
                                         )}
                                     </div>

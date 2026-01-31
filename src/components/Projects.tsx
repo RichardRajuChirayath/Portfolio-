@@ -3,6 +3,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ExternalLink, Github, Zap, Shield, BookOpen, BarChart3, Activity, Users, ArrowRight } from 'lucide-react';
+import { WordReveal, PremiumText } from './effects/TextReveal';
 import Image from 'next/image';
 
 const projects = [
@@ -65,17 +66,19 @@ export const Projects = () => {
         <section id="work" className="py-24 relative">
             <div className="section-container">
                 <motion.div
-                    initial={{ opacity: 0, y: 20 }}
+                    initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
-                    transition={{ duration: 0.6 }}
-                    className="text-center mb-16"
+                    transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
+                    className="text-center mb-24"
                 >
-                    <p className="section-title">Projects</p>
-                    <h2 className="section-heading">Featured Work</h2>
-                    <p className="text-muted-foreground max-w-lg mx-auto">
-                        Real products solving real problems. Engineered with precision and high-performance AI.
-                    </p>
+                    <p className="section-title !tracking-[0.4em] opacity-50">Projects</p>
+                    <h2 className="section-heading !mb-6">
+                        <PremiumText text="Featured Work" delay={0.1} />
+                    </h2>
+                    <div className="text-muted-foreground/60 max-w-lg mx-auto text-lg">
+                        <WordReveal text="Real products solving real problems. Engineered with precision and high-performance AI." delay={0.3} />
+                    </div>
                 </motion.div>
 
                 <div className="space-y-24">

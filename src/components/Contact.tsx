@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Mail, Github, Linkedin, Send, MapPin, Sparkles, MessageSquare, ArrowUpRight, Phone } from 'lucide-react';
+import { WordReveal, PremiumText } from './effects/TextReveal';
 
 const socialLinks = [
     { icon: <Github className="w-5 h-5" />, href: "https://github.com/RichardRajuChirayath", label: "GitHub" },
@@ -64,7 +65,10 @@ export const Contact = () => {
                     >
                         <div>
                             <span className="section-title">Ready to Start?</span>
-                            <h2 className="section-heading !mb-0 text-5xl lg:text-7xl">Let's build the <br />next big thing.</h2>
+                            <h2 className="section-heading !mb-0 text-5xl lg:text-7xl">
+                                <PremiumText text="Let's build the" delay={0.1} /> <br />
+                                <PremiumText text="next big thing." delay={0.3} />
+                            </h2>
                         </div>
                         <div className="mt-8 lg:mt-0 lg:max-w-md text-muted-foreground text-lg leading-relaxed">
                             Currently open to <span className="text-white">strategic partnerships</span>, high-impact roles, and speaking engagements at the intersection of AI & Product.

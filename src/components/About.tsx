@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import { ExternalLink, Rocket, Zap, Target, Sparkles } from 'lucide-react';
 import { Tilt } from './Tilt';
 import { Magnetic } from './Magnetic';
+import { WordReveal, PremiumText } from './effects/TextReveal';
 import Image from 'next/image';
 
 const ventures = [
@@ -66,10 +67,18 @@ export const About = () => {
                         </motion.div>
 
                         <span className="section-title">Genesis</span>
-                        <h2 className="section-heading text-6xl lg:text-8xl font-black tracking-tighter mb-10 text-white leading-[0.85] uppercase">
-                            Founder.<br />
-                            Engineer.<br />
-                            <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-primary to-brand-secondary">Visionary.</span>
+                        <h2 className="section-heading text-5xl md:text-6xl lg:text-7xl font-black tracking-tighter mb-10 text-white leading-[0.85] uppercase flex flex-col items-start">
+                            <span>Founder.</span>
+                            <span>Engineer.</span>
+                            <motion.span
+                                initial={{ opacity: 0, x: -20 }}
+                                whileInView={{ opacity: 1, x: 0 }}
+                                viewport={{ once: true }}
+                                transition={{ duration: 1, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
+                                className="text-transparent bg-clip-text bg-gradient-to-r from-brand-primary via-white/90 to-brand-secondary"
+                            >
+                                Visionary.
+                            </motion.span>
                         </h2>
 
                         <div className="space-y-8 text-xl text-muted-foreground leading-relaxed">

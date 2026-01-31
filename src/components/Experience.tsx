@@ -4,6 +4,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Briefcase, Calendar, Building, ArrowUpRight } from 'lucide-react';
 import { Magnetic } from './Magnetic';
+import { WordReveal, PremiumText } from './effects/TextReveal';
 import Image from 'next/image';
 
 const experiences = [
@@ -42,11 +43,13 @@ export const Experience = () => {
                     transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
                     className="mb-24"
                 >
-                    <span className="section-title">Career Path</span>
-                    <h2 className="section-heading">Professional Journey</h2>
-                    <p className="text-xl text-muted-foreground max-w-xl">
-                        A track record of building, leading, and shipping high-impact technology.
-                    </p>
+                    <span className="section-title !tracking-[0.4em] opacity-50">Career Path</span>
+                    <h2 className="section-heading">
+                        <PremiumText text="Professional Journey" delay={0.1} />
+                    </h2>
+                    <div className="text-xl text-muted-foreground/60 max-w-xl">
+                        <WordReveal text="A track record of building, leading, and shipping high-impact technology." delay={0.3} />
+                    </div>
                 </motion.div>
 
                 <div className="relative space-y-12">

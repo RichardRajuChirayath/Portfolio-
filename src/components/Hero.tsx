@@ -1,11 +1,20 @@
 "use client";
 
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, Github, Linkedin, MapPin, GraduationCap, Sparkles, Zap, Shield, Cpu } from 'lucide-react';
+import { WordReveal, PremiumText, LetterReveal } from './effects/TextReveal';
 import Image from 'next/image';
 
+const useMounted = () => {
+    const [mounted, setMounted] = useState(false);
+    useEffect(() => setMounted(true), []);
+    return mounted;
+};
+
 export const Hero = () => {
+    const mounted = useMounted();
+
     return (
         <section className="relative min-h-screen flex flex-col items-center justify-center pt-32 pb-16 overflow-hidden">
             {/* Static Background Glows */}
@@ -28,7 +37,9 @@ export const Hero = () => {
                                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
                                 <span className="relative inline-flex rounded-full h-2 w-2 bg-green-400"></span>
                             </span>
-                            <span className="text-[11px] font-bold uppercase tracking-[0.2em] text-white/70">Available for Partnerships</span>
+                            <span className="text-[11px] font-bold tracking-[0.2em] text-white/70 uppercase">
+                                AVAILABLE FOR PARTNERSHIPS
+                            </span>
                         </motion.div>
 
                         {/* Title - Editorial Design with Typing Animation */}
@@ -36,13 +47,13 @@ export const Hero = () => {
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.8, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-                            className="mb-6"
+                            className="mb-8"
                         >
-                            <h1 className="text-7xl md:text-8xl lg:text-9xl font-black tracking-tighter leading-[0.9]">
+                            <h1 className="text-7xl md:text-8xl lg:text-9xl font-black tracking-tighter leading-[0.85]">
                                 <motion.span
                                     className="block text-transparent bg-clip-text"
                                     style={{
-                                        WebkitTextStroke: '2px #8b5cf6',
+                                        WebkitTextStroke: '3px #8b5cf6',
                                     }}
                                     initial={{ opacity: 0 }}
                                     animate={{ opacity: 1 }}
@@ -63,7 +74,7 @@ export const Hero = () => {
                                 <motion.span
                                     className="block text-transparent bg-clip-text"
                                     style={{
-                                        WebkitTextStroke: '2px #8b5cf6',
+                                        WebkitTextStroke: '3px #8b5cf6',
                                     }}
                                     initial={{ opacity: 0 }}
                                     animate={{ opacity: 1 }}
@@ -87,7 +98,7 @@ export const Hero = () => {
                                 initial={{ opacity: 0, x: -20 }}
                                 animate={{ opacity: 1, x: 0 }}
                                 transition={{ duration: 0.6, delay: 1.6 }}
-                                className="text-lg md:text-xl font-medium text-white/40 tracking-[0.3em] uppercase mt-4"
+                                className="text-lg md:text-xl font-medium text-white/40 tracking-[0.4em] uppercase mt-6"
                             >
                                 Product Engineer & Founder
                             </motion.p>
@@ -98,7 +109,7 @@ export const Hero = () => {
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.8, delay: 1.8 }}
-                            className="text-xl md:text-2xl text-white/50 font-medium mb-10 max-w-xl"
+                            className="text-xl md:text-2xl text-white/60 font-medium mb-10 max-w-xl leading-relaxed"
                         >
                             I build <span className="text-white italic">startups that ship.</span> Serial entrepreneur turning ideas into production-ready products.
                         </motion.p>
@@ -107,19 +118,19 @@ export const Hero = () => {
                         <motion.div
                             initial={{ opacity: 0, y: 15 }}
                             animate={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.8, delay: 0.3 }}
+                            transition={{ duration: 0.8, delay: 2.0 }}
                             className="flex flex-wrap items-center justify-center lg:justify-start gap-3 mb-12"
                         >
                             <a href="https://www.linkedin.com/company/verblynlabs/" target="_blank" className="badge-legendary !bg-brand-primary/10 !border-brand-primary/20 !text-brand-primary flex items-center gap-2 hover:scale-105 transition-transform">
                                 <Image src="/logos/verblyn.png" alt="Verblyn Labs" width={16} height={16} className="rounded-sm" />
-                                <span>Founder @ Verblyn Labs</span>
+                                <span>FOUNDER @ VERBLYN LABS</span>
                             </a>
                             <div className="badge-legendary !bg-green-500/10 !border-green-500/20 !text-green-400 flex items-center gap-2">
-                                <span>🇮🇳 Govt. of India MSME</span>
+                                <span>🇮🇳 GOVT. OF INDIA MSME</span>
                             </div>
                             <a href="https://www.linkedin.com/company/qohesive/" target="_blank" className="badge-legendary !bg-cyan-500/10 !border-cyan-500/20 !text-cyan-400 flex items-center gap-2 hover:scale-105 transition-transform">
                                 <Image src="/logos/qohesive.png" alt="Qohesive" width={16} height={16} className="rounded-sm" />
-                                <span>Co-Founder @ Qohesive</span>
+                                <span>CO-FOUNDER @ QOHESIVE</span>
                             </a>
                             <div className="badge-legendary flex items-center gap-2 hover:scale-105 transition-transform group/edu">
                                 <div className="relative w-4 h-4 rounded-sm overflow-hidden bg-white/10 p-0.5 group-hover/edu:bg-white/20 transition-colors">
@@ -142,7 +153,7 @@ export const Hero = () => {
                         <motion.div
                             initial={{ opacity: 0, y: 15 }}
                             animate={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.8, delay: 0.4 }}
+                            transition={{ duration: 0.8, delay: 2.2 }}
                             className="flex flex-col sm:flex-row items-center gap-5"
                         >
                             <a href="#work" className="btn-legendary btn-legendary-primary !px-8 !py-4 shadow-[0_0_30px_rgba(255,255,255,0.15)]">
@@ -257,18 +268,18 @@ export const Hero = () => {
                     </div>
 
                 </div>
+            </div>
 
-                {/* Background Text Overlay */}
-                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none -z-10 select-none overflow-hidden">
-                    <span className="text-[20vw] font-black text-white/[0.015] tracking-tighter">BUILDER</span>
-                </div>
+            {/* Background Text Overlay */}
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none -z-10 select-none overflow-hidden">
+                <span className="text-[20vw] font-black text-white/[0.015] tracking-tighter">BUILDER</span>
             </div>
 
             {/* Scroll Indicator */}
             <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                transition={{ delay: 1.5, duration: 1 }}
+                transition={{ delay: 2.5, duration: 1 }}
                 className="absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center gap-3"
             >
                 <span className="text-[10px] font-bold uppercase tracking-[0.3em] text-white/30">Scroll to Explore</span>

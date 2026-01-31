@@ -4,6 +4,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Cpu, Globe, Database, Smartphone, Layers, Code2, Sparkles, Terminal } from 'lucide-react';
 import { Magnetic } from './Magnetic';
+import { WordReveal, PremiumText } from './effects/TextReveal';
 
 const techGroups = [
     {
@@ -60,11 +61,13 @@ export const Skills = () => {
                             viewport={{ once: true }}
                             transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
                         >
-                            <span className="section-title">Tech Arsenal</span>
-                            <h2 className="section-heading text-5xl lg:text-7xl font-bold tracking-tighter mb-8 italic">Engines of <br />Creation.</h2>
-                            <p className="text-xl text-muted-foreground leading-relaxed max-w-md">
-                                A battle-tested stack selected for performance, scalability, and developer experience.
-                            </p>
+                            <span className="section-title !tracking-[0.4em] opacity-50">Tech Arsenal</span>
+                            <h2 className="section-heading text-5xl lg:text-7xl font-bold tracking-tighter mb-8 italic">
+                                <PremiumText text="Engines of Creation." delay={0.1} />
+                            </h2>
+                            <div className="text-xl text-muted-foreground/60 leading-relaxed max-w-md">
+                                <WordReveal text="A battle-tested stack selected for performance, scalability, and developer experience." delay={0.3} />
+                            </div>
                         </motion.div>
 
                         <div className="grid grid-cols-2 gap-4">

@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { cn } from '@/lib/utils';
 import { Menu, X, Sparkles } from 'lucide-react';
+import Image from 'next/image';
 
 const navItems = [
     { name: 'About', href: '#about' },
@@ -62,9 +63,14 @@ export const Navbar = () => {
                 <a href="#" className="flex items-center gap-3 relative z-10">
                     <motion.div
                         whileHover={{ rotate: 15, scale: 1.1 }}
-                        className="w-10 h-10 rounded-xl bg-gradient-to-br from-brand-primary via-brand-secondary to-brand-primary bg-[size:200%_200%] animate-gradient flex items-center justify-center font-bold text-white shadow-lg shadow-brand-primary/20"
+                        className="relative w-10 h-10 rounded-xl overflow-hidden animate-gradient shadow-lg shadow-brand-primary/20 border border-white/10"
                     >
-                        R
+                        <Image
+                            src="/richard.png"
+                            alt="Richard Raju"
+                            fill
+                            className="object-cover"
+                        />
                     </motion.div>
                     <div className="flex flex-col">
                         <span className="text-sm font-bold tracking-tight bg-gradient-to-r from-white to-white/60 bg-clip-text text-transparent">Richard Raju</span>

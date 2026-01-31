@@ -12,7 +12,7 @@ const experiences = [
         company: "Qohesive",
         companyUrl: "https://www.linkedin.com/company/qohesive/",
         logo: "/logos/qohesive.png",
-        period: "2025 - Present",
+        period: "2026 - Present",
         description: "Building a unified AI platform that simplifies how software is created, operated, and scaled. Unifying the entire tech stack into an AI that builds, runs, and scales apps autonomously.",
         current: true,
         skills: ["System Architecture", "AI Automation", "Scaling"]
@@ -22,7 +22,7 @@ const experiences = [
         company: "Verblyn Labs",
         companyUrl: "https://www.linkedin.com/company/verblynlabs/",
         logo: "/logos/verblyn.png",
-        period: "2024 - Present",
+        period: "2025 - Present",
         description: "A product studio building user-centric AI solutions across EdTech and Healthcare. Creating technology that solves genuine problems with clarity and real-world impact.",
         current: true,
         skills: ["AI Strategy", "Product Design", "Lead Engineering"],

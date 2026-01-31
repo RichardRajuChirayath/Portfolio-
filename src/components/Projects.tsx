@@ -9,7 +9,7 @@ const projects = [
     {
         title: "Clyentra",
         category: "AI Compliance Engine",
-        year: "2025",
+        year: "2026",
         tagline: "Never miss a client insight again",
         description: "A Client Feedback Enforcer for design agencies. Uses Llama 3.3 (70B) to extract action items from messy client emails and create non-negotiable checklists.",
         highlights: [
@@ -26,7 +26,7 @@ const projects = [
     {
         title: "AQMD",
         category: "Cognitive Alignment Platform",
-        year: "2024",
+        year: "2025",
         tagline: "Transforming reading into quantified mastery",
         description: "Advanced Cognitive Engine V2.0 for high-performance learning. Bridges the gap between study materials and real-world exam performance through institutional-grade AI analysis.",
         highlights: [
@@ -44,7 +44,7 @@ const projects = [
     {
         title: "Medaurin",
         category: "Health-Security Ecosystem",
-        year: "2024",
+        year: "2025",
         tagline: "The Proactive Medicine Guardian",
         description: "A premium healthcare security system featuring a '6-Factor' Risk Engine. Validates medicine safety across 4+ global authorities and protects users from drug conflicts.",
         highlights: [

@@ -91,7 +91,7 @@ export const Resume = () => {
                                             <h3 className="font-bold text-gray-900">Founder & Technical Lead</h3>
                                             <p className="text-sm text-gray-600">Verblyn Labs</p>
                                         </div>
-                                        <span className="text-sm text-gray-500">2024 - Present</span>
+                                        <span className="text-sm text-gray-500">2025 - Present</span>
                                     </div>
                                     <ul className="list-disc list-inside text-sm text-gray-700 space-y-1 ml-1">
                                         <li>Founded a product studio focused on building user-centric AI solutions across EdTech and Healthcare domains</li>
@@ -108,7 +108,7 @@ export const Resume = () => {
                                             <h3 className="font-bold text-gray-900">Co-Founder</h3>
                                             <p className="text-sm text-gray-600">Qohesive</p>
                                         </div>
-                                        <span className="text-sm text-gray-500">2025 - Present</span>
+                                        <span className="text-sm text-gray-500">2026 - Present</span>
                                     </div>
                                     <ul className="list-disc list-inside text-sm text-gray-700 space-y-1 ml-1">
                                         <li>Building a unified AI platform that simplifies software creation, operation, and scaling</li>
@@ -135,7 +135,7 @@ export const Resume = () => {
                                                 Live
                                             </a>
                                         </div>
-                                        <span className="text-sm text-gray-500">2025</span>
+                                        <span className="text-sm text-gray-500">2026</span>
                                     </div>
                                     <p className="text-sm text-gray-700">
                                         Client Feedback Enforcer for design agencies using Llama 3.3 (70B). Extracts action items from client emails and creates non-negotiable checklists. 40% faster feedback processing.
@@ -151,7 +151,7 @@ export const Resume = () => {
                                                 Live
                                             </a>
                                         </div>
-                                        <span className="text-sm text-gray-500">2023 - 2024</span>
+                                        <span className="text-sm text-gray-500">2024 - 2025</span>
                                     </div>
                                     <p className="text-sm text-gray-700">
                                         High-performance EdTech platform with 36+ active users. Features smart PDF engine, OCR integration, and predictive exam modeling. Built with Next.js 15+, TypeScript, and Groq AI.
@@ -167,7 +167,7 @@ export const Resume = () => {
                                                 Live
                                             </a>
                                         </div>
-                                        <span className="text-sm text-gray-500">2024</span>
+                                        <span className="text-sm text-gray-500">2025</span>
                                     </div>
                                     <p className="text-sm text-gray-700">
                                         HealthTech application featuring 6-Factor proprietary Risk Engine. Validates medicine safety across 4+ global authorities with drug-condition mapping and safety alerts.
@@ -183,7 +183,7 @@ export const Resume = () => {
                                                 Live
                                             </a>
                                         </div>
-                                        <span className="text-sm text-gray-500">2025</span>
+                                        <span className="text-sm text-gray-500">2026</span>
                                     </div>
                                     <p className="text-sm text-gray-700">
                                         Premium, high-performance portfolio engineered with Next.js, Framer Motion, and Tailwind CSS. Features custom cursor interactions, editorial typography, and high-fidelity animations.
@@ -245,7 +245,7 @@ export const Resume = () => {
                                         <p className="text-sm text-gray-600">Christ University, Bengaluru</p>
                                     </div>
                                 </div>
-                                <span className="text-sm text-gray-500">2024 - 2028 (Expected)</span>
+                                <span className="text-sm text-gray-500">2025 - 2029 (Expected)</span>
                             </div>
                         </section>
 

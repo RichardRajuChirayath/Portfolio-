@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply max-w-5xl mx-auto px-6 sm:px-8;
+  }
+
+  .section-padding {
+    @apply py-20 sm:py-32;
+  }
+
+  .nav-link {
+    @apply text-muted hover:text-foreground transition-all duration-300 text-sm font-medium relative;
+  }
+
+  .nav-link::after {
+    @apply content-[''] absolute -bottom-1 left-0 w-0 h-0.5 bg-accent transition-all duration-300;
+  }
+
+  .nav-link:hover::after {
+    @apply w-full;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center px-6 py-2.5 rounded-full font-medium transition-all duration-300 text-sm active:scale-95 disabled:opacity-50;
+  }
+
+  .btn-primary {
+    @apply bg-foreground text-background hover:bg-white/90 shadow-2xl;
+  }
+
+  .btn-outline {
+    @apply border border-border text-foreground hover:bg-card hover:border-muted/50;
+  }
+
+  .card {
+    @apply bg-card border border-border rounded-2xl p-8 hover:border-muted/30 transition-all duration-500 shadow-xl;
+  }
+
+  .glass {
+    @apply bg-card/60 backdrop-blur-xl border border-white/5;
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-br from-white via-white to-white/40;
+  }
+
+  .accent-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-indigo-500;
+  }
+}

@@ -160,13 +160,23 @@ export const Resume = () => {
                                     {[
                                         {
                                             title: "Clyentra - AI Compliance Engine",
-                                            link: "client-feedback-enforcer-production.up.railway.app",
+                                            link: "client-feedback-enforcer.vercel.app",
                                             desc: "Enterprise-grade agentic AI for design agencies. Extracts action items from unstructured data with 95% accuracy using Llama 70B models."
                                         },
                                         {
                                             title: "AQMD - Cognitive Alignment Platform",
                                             link: "aqmd.site",
                                             desc: "High-performance EdTech engine featuring advanced PDF parsing, OCR integration, and predictive exam modeling for 3,600+ users."
+                                        },
+                                        {
+                                            title: "Medaurin - Medication Safety Engine",
+                                            link: "medaurin.vercel.app",
+                                            desc: "Proprietary 6-Factor Risk Engine validating medicine safety across 4+ global authorities with complex drug-condition mapping."
+                                        },
+                                        {
+                                            title: "Personal Portfolio - High Fidelity",
+                                            link: "richardraju.dev",
+                                            desc: "Premium, high-performance interactive experience engineered with Next.js 15, Framer Motion, and Tailwind CSS."
                                         }
                                     ].map((project, i) => (
                                         <div key={i} className="group border border-gray-100 p-4 rounded-xl hover:bg-gray-50 transition-colors">

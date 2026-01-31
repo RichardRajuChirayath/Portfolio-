@@ -27,217 +27,227 @@ export const Resume = () => {
                 <div className="max-w-[850px] mx-auto bg-white shadow-xl print:shadow-none">
 
                     {/* Resume Content */}
-                    <div className="p-10 print:p-12 font-['Inter',sans-serif] text-gray-900 leading-normal">
+                    <div className="p-10 print:p-8 font-['Inter',sans-serif] text-gray-900">
 
                         {/* Header */}
-                        <header className="border-b-4 border-gray-900 pb-6 mb-8">
-                            <div className="flex justify-between items-start">
-                                <div>
-                                    <h1 className="text-4xl font-black tracking-tighter text-gray-900 mb-1">
-                                        RICHARD RAJU
-                                    </h1>
-                                    <p className="text-xl font-bold text-blue-600 tracking-tight mb-4">
-                                        Product Engineer & Serial Founder
-                                    </p>
-                                </div>
-                                <div className="text-right print:hidden">
-                                    <div className="flex items-center gap-1.5 text-xs font-bold text-gray-400 uppercase tracking-widest">
-                                        <MapPin className="w-3 h-3" />
-                                        Bengaluru, India
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="grid grid-cols-2 md:grid-cols-3 gap-y-2 gap-x-4 text-sm text-gray-600">
-                                <a href="mailto:richardrajuchirayath@gmail.com" className="flex items-center gap-2 hover:text-blue-600 transition-colors">
-                                    <Mail className="w-4 h-4 text-gray-400" />
+                        <header className="border-b-2 border-gray-900 pb-4 mb-6">
+                            <h1 className="text-3xl font-bold tracking-tight text-gray-900 mb-1">
+                                RICHARD RAJU
+                            </h1>
+                            <p className="text-lg font-medium text-gray-700 mb-3">
+                                Product Engineer & Founder
+                            </p>
+                            <div className="flex flex-wrap gap-x-5 gap-y-1 text-sm text-gray-600">
+                                <a href="mailto:richardrajuchirayath@gmail.com" className="flex items-center gap-1.5 hover:text-gray-900">
+                                    <Mail className="w-3.5 h-3.5" />
                                     richardrajuchirayath@gmail.com
                                 </a>
-                                <a href="tel:+919606669730" className="flex items-center gap-2 hover:text-blue-600 transition-colors">
-                                    <Phone className="w-4 h-4 text-gray-400" />
+                                <a href="tel:+919606669730" className="flex items-center gap-1.5 hover:text-gray-900">
+                                    <Phone className="w-3.5 h-3.5" />
                                     +91 9606669730
                                 </a>
-                                <a href="https://linkedin.com/in/richard-raju-939186316" target="_blank" className="flex items-center gap-2 hover:text-blue-600 transition-colors">
-                                    <Linkedin className="w-4 h-4 text-gray-400" />
+                                <a href="https://linkedin.com/in/richard-raju-939186316" target="_blank" className="flex items-center gap-1.5 hover:text-gray-900">
+                                    <Linkedin className="w-3.5 h-3.5" />
                                     linkedin.com/in/richard-raju
                                 </a>
-                                <a href="https://github.com/RichardRajuChirayath" target="_blank" className="flex items-center gap-2 hover:text-blue-600 transition-colors">
-                                    <Github className="w-4 h-4 text-gray-400" />
-                                    github.com/RichardRaju
+                                <a href="https://github.com/RichardRajuChirayath" target="_blank" className="flex items-center gap-1.5 hover:text-gray-900">
+                                    <Github className="w-3.5 h-3.5" />
+                                    github.com/RichardRajuChirayath
                                 </a>
-                                <a href="https://portfolio-amber-six-58.vercel.app/" target="_blank" className="flex items-center gap-2 font-bold text-blue-600 hover:text-blue-700 transition-colors">
-                                    <Globe className="w-4 h-4" />
-                                    richardraju.dev
+                                <a href="https://portfolio-amber-six-58.vercel.app/" target="_blank" className="flex items-center gap-1.5 hover:text-gray-900 font-semibold text-blue-600">
+                                    <Globe className="w-3.5 h-3.5" />
+                                    Portfolio
                                 </a>
-                                <div className="flex items-center gap-2 md:hidden">
-                                    <MapPin className="w-4 h-4 text-gray-400" />
+                                <span className="flex items-center gap-1.5">
+                                    <MapPin className="w-3.5 h-3.5" />
                                     Bengaluru, India
-                                </div>
+                                </span>
                             </div>
                         </header>
 
-                        <div className="grid grid-cols-1 gap-8">
-                            {/* Summary */}
-                            <section>
-                                <h2 className="text-xs font-black uppercase tracking-[0.2em] text-gray-400 mb-3 flex items-center gap-2">
-                                    <span className="w-8 h-px bg-gray-200" />
-                                    Executive Summary
-                                </h2>
-                                <p className="text-[15px] text-gray-800 leading-relaxed font-medium">
-                                    Dynamic <span className="text-black font-bold">Product Engineer and Serial Founder</span> with a high-velocity approach to shipping production AI systems.
-                                    Proven track record in scaling products from zero to thousands of users. Expertise in architecting <span className="text-black font-bold">agentic AI workflows</span>
-                                    and high-performance full-stack ecosystems that drive measurable business impact and operational efficiency.
-                                </p>
-                            </section>
+                        {/* Summary */}
+                        <section className="mb-6">
+                            <h2 className="text-sm font-bold uppercase tracking-wider text-gray-900 border-b border-gray-300 pb-1 mb-3">
+                                Professional Summary
+                            </h2>
+                            <p className="text-sm text-gray-700 leading-relaxed">
+                                Serial entrepreneur and Product Engineer with a proven track record of building and shipping production-ready applications.
+                                Founder of Verblyn Labs and Co-Founder of Qohesive. Expertise in full-stack development, AI integration, and product design.
+                                Passionate about creating technology solutions that solve real-world problems with clarity and measurable impact.
+                            </p>
+                        </section>
 
-                            {/* Core Focus Area - ATS Optimization */}
-                            <section>
-                                <h2 className="text-xs font-black uppercase tracking-[0.2em] text-gray-400 mb-3 flex items-center gap-2">
-                                    <span className="w-8 h-px bg-gray-200" />
-                                    Core Competencies
-                                </h2>
-                                <div className="flex flex-wrap gap-2">
-                                    {["Agentic AI Architecture", "Full-Stack Engineering", "Product Strategy", "System Design", "Cloud Infrastructure", "Startup Scaling", "LLM Integration", "UI/UX Engineering"].map((skill, i) => (
-                                        <span key={i} className="px-3 py-1 bg-gray-100 text-gray-800 text-xs font-bold rounded-md border border-gray-200">
-                                            {skill}
-                                        </span>
-                                    ))}
-                                </div>
-                            </section>
+                        {/* Experience */}
+                        <section className="mb-6">
+                            <h2 className="text-sm font-bold uppercase tracking-wider text-gray-900 border-b border-gray-300 pb-1 mb-3">
+                                Experience
+                            </h2>
 
-                            {/* Experience */}
-                            <section>
-                                <h2 className="text-xs font-black uppercase tracking-[0.2em] text-gray-400 mb-5 flex items-center gap-2">
-                                    <span className="w-12 h-px bg-gray-200" />
-                                    Professional Experience
-                                </h2>
-
-                                <div className="space-y-8">
-                                    {/* Qohesive */}
-                                    <div className="relative pl-6 border-l-2 border-blue-600/20">
-                                        <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-white border-2 border-blue-600 shadow-sm" />
-                                        <div className="flex justify-between items-start mb-2">
-                                            <div>
-                                                <h3 className="text-lg font-bold text-gray-900 leading-none">Co-Founder</h3>
-                                                <p className="text-blue-600 font-bold text-sm">Qohesive</p>
-                                            </div>
-                                            <span className="text-xs font-bold text-gray-500 bg-gray-100 px-2 py-1 rounded">2025 – PRESENT</span>
-                                        </div>
-                                        <ul className="list-disc list-outside ml-4 text-[14px] text-gray-700 space-y-2">
-                                            <li><span className="font-bold text-gray-900">Architecting an autonomous AI platform</span> aimed at automating the entire Software Development Lifecycle (SDLC).</li>
-                                            <li>Developing self-healing cloud systems that enable AI to build, deploy, and scale applications with zero human intervention.</li>
-                                            <li>Implementing advanced <span className="font-bold text-gray-900">Vector Search and RAG strategies</span> to enhance AI context-awareness and reasoning capabilities.</li>
-                                        </ul>
-                                    </div>
-
-                                    {/* Verblyn Labs */}
-                                    <div className="relative pl-6 border-l-2 border-purple-600/20">
-                                        <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-white border-2 border-purple-600 shadow-sm" />
-                                        <div className="flex justify-between items-start mb-2">
-                                            <div>
-                                                <h3 className="text-lg font-bold text-gray-900 leading-none">Founder & Technical Lead</h3>
-                                                <p className="text-purple-600 font-bold text-sm">Verblyn Labs (Govt. of India Recognized MSME)</p>
-                                            </div>
-                                            <span className="text-xs font-bold text-gray-500 bg-gray-100 px-2 py-1 rounded">2024 – PRESENT</span>
-                                        </div>
-                                        <ul className="list-disc list-outside ml-4 text-[14px] text-gray-700 space-y-2">
-                                            <li><span className="font-bold text-gray-900">Founded an AI-first product studio</span>, successfully shipping and scaling 4+ production applications in EdTech and Healthcare.</li>
-                                            <li>Engineered a custom <span className="font-bold text-gray-900">Agentic Feedback Engine</span> using Llama 3.3 and Groq, decreasing manual coordination tasks by 40%.</li>
-                                            <li>Spearheaded end-to-end product delivery, managing team workflows and architecting scalable backend infrastructures on Vercel and Railway.</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </section>
-
-                            {/* Key Projects */}
-                            <section>
-                                <h2 className="text-xs font-black uppercase tracking-[0.2em] text-gray-400 mb-5 flex items-center gap-2">
-                                    <span className="w-12 h-px bg-gray-200" />
-                                    Strategic Projects
-                                </h2>
-
-                                <div className="grid grid-cols-1 gap-6">
-                                    {[
-                                        {
-                                            title: "Clyentra - AI Compliance Engine",
-                                            link: "client-feedback-enforcer.vercel.app",
-                                            desc: "Enterprise-grade agentic AI for design agencies. Extracts action items from unstructured data with 95% accuracy using Llama 70B models."
-                                        },
-                                        {
-                                            title: "AQMD - Cognitive Alignment Platform",
-                                            link: "aqmd.site",
-                                            desc: "High-performance EdTech engine featuring advanced PDF parsing, OCR integration, and predictive exam modeling for 3,600+ users."
-                                        },
-                                        {
-                                            title: "Medaurin - Medication Safety Engine",
-                                            link: "medaurin.vercel.app",
-                                            desc: "Proprietary 6-Factor Risk Engine validating medicine safety across 4+ global authorities with complex drug-condition mapping."
-                                        },
-                                        {
-                                            title: "Personal Portfolio - High Fidelity",
-                                            link: "richardraju.dev",
-                                            desc: "Premium, high-performance interactive experience engineered with Next.js 15, Framer Motion, and Tailwind CSS."
-                                        }
-                                    ].map((project, i) => (
-                                        <div key={i} className="group border border-gray-100 p-4 rounded-xl hover:bg-gray-50 transition-colors">
-                                            <div className="flex justify-between items-center mb-1">
-                                                <h3 className="font-bold text-gray-900">{project.title}</h3>
-                                                <span className="text-[10px] font-bold text-blue-600 uppercase tracking-widest">Selected Works</span>
-                                            </div>
-                                            <p className="text-sm text-gray-600 leading-relaxed mb-2">{project.desc}</p>
-                                            <div className="flex items-center gap-1.5 text-xs text-blue-600 font-bold">
-                                                <ExternalLink className="w-3 h-3" />
-                                                {project.link}
-                                            </div>
-                                        </div>
-                                    ))}
-                                </div>
-                            </section>
-
-                            {/* Technical Stack */}
-                            <section>
-                                <h2 className="text-xs font-black uppercase tracking-[0.2em] text-gray-400 mb-4 flex items-center gap-2">
-                                    <span className="w-8 h-px bg-gray-200" />
-                                    Technical Architecture
-                                </h2>
-                                <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
-                                    {[
-                                        { label: "Engineering", items: "TypeScript, Python, Java" },
-                                        { label: "Neural/AI", items: "Groq, LangChain, RAG" },
-                                        { label: "Frontend", items: "Next.js 15, React, Tailwind" },
-                                        { label: "Backend/Cloud", items: "Prisma, PostgreSQL, Docker" }
-                                    ].map((stack, i) => (
-                                        <div key={i}>
-                                            <p className="text-[10px] font-black uppercase tracking-widest text-gray-400 mb-1">{stack.label}</p>
-                                            <p className="text-xs font-bold text-gray-900 underline decoration-blue-600/30 decoration-2 underline-offset-4">{stack.items}</p>
-                                        </div>
-                                    ))}
-                                </div>
-                            </section>
-
-                            {/* Education */}
-                            <section>
-                                <h2 className="text-xs font-black uppercase tracking-[0.2em] text-gray-400 mb-4 flex items-center gap-2">
-                                    <span className="w-8 h-px bg-gray-200" />
-                                    Academic Background
-                                </h2>
-                                <div className="flex justify-between items-center group">
-                                    <div className="flex items-center gap-4">
-                                        <div className="w-12 h-12 rounded-xl border border-gray-200 flex items-center justify-center p-2 group-hover:border-blue-600/30 transition-colors">
-                                            <Image src="/logos/christ.png" alt="Christ" width={32} height={32} className="object-contain" />
-                                        </div>
+                            <div className="space-y-5">
+                                {/* Verblyn Labs */}
+                                <div>
+                                    <div className="flex justify-between items-start mb-1">
                                         <div>
-                                            <h3 className="font-bold text-gray-900 leading-none mb-1 text-base">Bachelor of Technology (B.Tech)</h3>
-                                            <p className="text-sm font-medium text-gray-500 italic">Christ University, Bengaluru</p>
+                                            <h3 className="font-bold text-gray-900">Founder & Technical Lead</h3>
+                                            <p className="text-sm text-gray-600">Verblyn Labs</p>
                                         </div>
+                                        <span className="text-sm text-gray-500">2024 - Present</span>
                                     </div>
-                                    <div className="text-right">
-                                        <p className="text-xs font-black text-gray-400">CLASS OF 2028</p>
-                                        <p className="text-[10px] font-bold text-blue-600">Expected Graduation</p>
+                                    <ul className="list-disc list-inside text-sm text-gray-700 space-y-1 ml-1">
+                                        <li>Founded a product studio focused on building user-centric AI solutions across EdTech and Healthcare domains</li>
+                                        <li>Led development of multiple production applications serving thousands of users</li>
+                                        <li>Implemented AI-powered features using Groq, Llama, and other LLM technologies</li>
+                                        <li>Managed end-to-end product lifecycle from ideation to deployment</li>
+                                    </ul>
+                                </div>
+
+                                {/* Qohesive */}
+                                <div>
+                                    <div className="flex justify-between items-start mb-1">
+                                        <div>
+                                            <h3 className="font-bold text-gray-900">Co-Founder</h3>
+                                            <p className="text-sm text-gray-600">Qohesive</p>
+                                        </div>
+                                        <span className="text-sm text-gray-500">2025 - Present</span>
+                                    </div>
+                                    <ul className="list-disc list-inside text-sm text-gray-700 space-y-1 ml-1">
+                                        <li>Building a unified AI platform that simplifies software creation, operation, and scaling</li>
+                                        <li>Architecting systems that enable AI to build, run, and scale applications autonomously</li>
+                                        <li>Developing innovative approaches to AI-driven software development</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+
+                        {/* Projects */}
+                        <section className="mb-6">
+                            <h2 className="text-sm font-bold uppercase tracking-wider text-gray-900 border-b border-gray-300 pb-1 mb-3">
+                                Key Projects
+                            </h2>
+
+                            <div className="space-y-4">
+                                <div>
+                                    <div className="flex justify-between items-start">
+                                        <div className="flex items-center gap-2">
+                                            <h3 className="font-bold text-gray-900">Clyentra - AI Compliance Engine</h3>
+                                            <a href="https://client-feedback-enforcer-production.up.railway.app/" target="_blank" className="text-blue-600 hover:underline text-xs flex items-center gap-1">
+                                                <ExternalLink className="w-3 h-3" />
+                                                Live
+                                            </a>
+                                        </div>
+                                        <span className="text-sm text-gray-500">2025</span>
+                                    </div>
+                                    <p className="text-sm text-gray-700">
+                                        Client Feedback Enforcer for design agencies using Llama 3.3 (70B). Extracts action items from client emails and creates non-negotiable checklists. 40% faster feedback processing.
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <div className="flex justify-between items-start">
+                                        <div className="flex items-center gap-2">
+                                            <h3 className="font-bold text-gray-900">AQMD - Cognitive Alignment Platform</h3>
+                                            <a href="https://www.aqmd.site/" target="_blank" className="text-blue-600 hover:underline text-xs flex items-center gap-1">
+                                                <ExternalLink className="w-3 h-3" />
+                                                Live
+                                            </a>
+                                        </div>
+                                        <span className="text-sm text-gray-500">2023 - 2024</span>
+                                    </div>
+                                    <p className="text-sm text-gray-700">
+                                        High-performance EdTech platform with 36+ active users. Features smart PDF engine, OCR integration, and predictive exam modeling. Built with Next.js 15+, TypeScript, and Groq AI.
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <div className="flex justify-between items-start">
+                                        <div className="flex items-center gap-2">
+                                            <h3 className="font-bold text-gray-900">Medaurin - Medication Safety Engine</h3>
+                                            <a href="https://medaurin-web-production.up.railway.app/" target="_blank" className="text-blue-600 hover:underline text-xs flex items-center gap-1">
+                                                <ExternalLink className="w-3 h-3" />
+                                                Live
+                                            </a>
+                                        </div>
+                                        <span className="text-sm text-gray-500">2024</span>
+                                    </div>
+                                    <p className="text-sm text-gray-700">
+                                        HealthTech application featuring 6-Factor proprietary Risk Engine. Validates medicine safety across 4+ global authorities with drug-condition mapping and safety alerts.
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <div className="flex justify-between items-start">
+                                        <div className="flex items-center gap-2">
+                                            <h3 className="font-bold text-gray-900">Personal Portfolio - Interactive Experience</h3>
+                                            <a href="https://portfolio-amber-six-58.vercel.app/" target="_blank" className="text-blue-600 hover:underline text-xs flex items-center gap-1">
+                                                <ExternalLink className="w-3 h-3" />
+                                                Live
+                                            </a>
+                                        </div>
+                                        <span className="text-sm text-gray-500">2025</span>
+                                    </div>
+                                    <p className="text-sm text-gray-700">
+                                        Premium, high-performance portfolio engineered with Next.js, Framer Motion, and Tailwind CSS. Features custom cursor interactions, editorial typography, and high-fidelity animations.
+                                    </p>
+                                </div>
+                            </div>
+                        </section>
+
+                        {/* Skills */}
+                        <section className="mb-6">
+                            <h2 className="text-sm font-bold uppercase tracking-wider text-gray-900 border-b border-gray-300 pb-1 mb-3">
+                                Technical Skills
+                            </h2>
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
+                                <div>
+                                    <span className="font-semibold text-gray-900">Languages:</span>
+                                    <span className="text-gray-700"> TypeScript, JavaScript, Python, Java, SQL</span>
+                                </div>
+                                <div>
+                                    <span className="font-semibold text-gray-900">Frontend:</span>
+                                    <span className="text-gray-700"> React, Next.js, Tailwind CSS, Framer Motion</span>
+                                </div>
+                                <div>
+                                    <span className="font-semibold text-gray-900">Backend:</span>
+                                    <span className="text-gray-700"> Node.js, Express, REST APIs, Prisma</span>
+                                </div>
+                                <div>
+                                    <span className="font-semibold text-gray-900">AI/ML:</span>
+                                    <span className="text-gray-700"> Groq, Llama, LangChain, OpenAI API</span>
+                                </div>
+                                <div>
+                                    <span className="font-semibold text-gray-900">Databases:</span>
+                                    <span className="text-gray-700"> PostgreSQL, MongoDB, Supabase, Firebase</span>
+                                </div>
+                                <div>
+                                    <span className="font-semibold text-gray-900">Tools:</span>
+                                    <span className="text-gray-700"> Git, Docker, Vercel, Figma, VS Code</span>
+                                </div>
+                            </div>
+                        </section>
+
+                        {/* Education */}
+                        <section>
+                            <h2 className="text-sm font-bold uppercase tracking-wider text-gray-900 border-b border-gray-300 pb-1 mb-3">
+                                Education
+                            </h2>
+                            <div className="flex justify-between items-start">
+                                <div className="flex gap-4">
+                                    <div className="relative w-10 h-10 shrink-0 border border-gray-100 rounded-md overflow-hidden bg-white">
+                                        <Image
+                                            src="/logos/christ.png"
+                                            alt="Christ University"
+                                            fill
+                                            className="object-contain"
+                                        />
+                                    </div>
+                                    <div>
+                                        <h3 className="font-bold text-gray-900">Bachelor of Technology (B.Tech)</h3>
+                                        <p className="text-sm text-gray-600">Christ University, Bengaluru</p>
                                     </div>
                                 </div>
-                            </section>
-                        </div>
+                                <span className="text-sm text-gray-500">2024 - 2028 (Expected)</span>
+                            </div>
+                        </section>
 
                     </div>
                 </div>

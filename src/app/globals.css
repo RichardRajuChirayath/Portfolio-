@@ -76,7 +76,8 @@
         font-family: var(--font-heading);
         font-weight: 600;
         letter-spacing: -0.03em;
-        line-height: 1.1;
+        line-height: 1.25;
+        /* Increased from 1.1 to prevent clipping */
     }
 }
 
@@ -114,7 +115,8 @@
     }
 
     .section-heading {
-        @apply text-4xl md:text-5xl lg:text-7xl font-bold tracking-tight mb-8 bg-gradient-to-b from-white to-white/60 bg-clip-text text-transparent;
+        @apply text-4xl md:text-5xl lg:text-7xl font-bold tracking-tight mb-8 bg-gradient-to-b from-white to-white/60 bg-clip-text text-transparent pb-4;
+        /* Added pb-4 to prevent clipping */
     }
 
     .preserve-3d {

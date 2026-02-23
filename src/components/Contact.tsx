@@ -71,7 +71,7 @@ export const Contact = () => {
                             </h2>
                         </div>
                         <div className="mt-8 lg:mt-0 lg:max-w-md text-muted-foreground text-lg leading-relaxed">
-                            Currently open to <span className="text-white">strategic partnerships</span>, high-impact roles, and speaking engagements at the intersection of AI & Product.
+                            Currently open to <span className="text-white">internships</span>, collaborative projects, and opportunities to contribute to meaningful software products—especially where strong engineering meets practical impact.
                         </div>
                     </motion.div>
 

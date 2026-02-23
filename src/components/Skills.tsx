@@ -66,7 +66,7 @@ export const Skills = () => {
                                 <PremiumText text="Engines of Creation." delay={0.1} />
                             </h2>
                             <div className="text-xl text-muted-foreground/60 leading-relaxed max-w-md">
-                                <WordReveal text="A battle-tested stack selected for performance, scalability, and developer experience." delay={0.3} />
+                                <WordReveal text="Technologies I use to design, build, and deploy reliable software systems." delay={0.3} />
                             </div>
                         </motion.div>
 

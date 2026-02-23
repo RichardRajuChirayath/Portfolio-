@@ -71,9 +71,7 @@ export const Resume = () => {
                                 Professional Summary
                             </h2>
                             <p className="text-sm text-gray-700 leading-relaxed">
-                                Serial entrepreneur and Product Engineer with a proven track record of building and shipping production-ready applications.
-                                Founder of Verblyn Labs and Co-Founder of Qohesive. Expertise in architecting high-impact AI systems and full-stack solutions across diverse industries.
-                                Passionate about creating technology solutions that solve real-world problems with clarity and measurable impact.
+                                Product-oriented Software Engineer and founder with experience designing and deploying real-world AI and full-stack applications. Built and launched multiple products end-to-end, combining engineering depth with product thinking. Comfortable contributing within structured teams as well as fast-moving environments, with a focus on reliable systems and practical problem solving.
                             </p>
                         </section>
 

@@ -238,7 +238,7 @@ export const Resume = () => {
                                         />
                                     </div>
                                     <div>
-                                        <h3 className="font-bold text-gray-900">Bachelor of Technology (B.Tech)</h3>
+                                        <h3 className="font-bold text-gray-900">Bachelor of Technology - Computer Science and Engineering</h3>
                                         <p className="text-sm text-gray-600">Christ University, Bengaluru</p>
                                     </div>
                                 </div>

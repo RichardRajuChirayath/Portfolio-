@@ -63,7 +63,7 @@ export const Skills = () => {
                         >
                             <span className="section-title !tracking-[0.4em] opacity-50">Tech Arsenal</span>
                             <h2 className="section-heading text-5xl lg:text-7xl font-bold tracking-tighter mb-8 italic">
-                                <PremiumText text="Engines of Creation." delay={0.1} />
+                                <PremiumText text="Tech Stack & Tools" delay={0.1} />
                             </h2>
                             <div className="text-xl text-muted-foreground/60 leading-relaxed max-w-md">
                                 <WordReveal text="Technologies I use to design, build, and deploy reliable software systems." delay={0.3} />

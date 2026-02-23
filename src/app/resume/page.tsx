@@ -3,7 +3,7 @@ import { Resume } from '@/components/Resume';
 
 export const metadata: Metadata = {
     title: "Resume | Richard Raju - Product Engineer & Founder",
-    description: "Product-oriented Software Engineer and founder with experience designing and deploying real-world AI and full-stack applications. Built and launched multiple products end-to-end, combining engineering depth with product thinking.",
+    description: "Second-year B.Tech Computer Science student at Christ University, focused on product-oriented software engineering and real-world system building.",
 };
 
 export default function ResumePage() {

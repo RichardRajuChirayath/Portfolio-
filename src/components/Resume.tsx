@@ -35,7 +35,7 @@ export const Resume = () => {
                                 RICHARD RAJU
                             </h1>
                             <p className="text-lg font-medium text-gray-700 mb-3">
-                                Product Engineer & Founder
+                                B.Tech CSE Student | Software Engineer & Product Builder
                             </p>
                             <div className="flex flex-wrap gap-x-5 gap-y-1 text-sm text-gray-600">
                                 <a href="mailto:richardrajuchirayath@gmail.com" className="flex items-center gap-1.5 hover:text-gray-900">
@@ -71,7 +71,7 @@ export const Resume = () => {
                                 Professional Summary
                             </h2>
                             <p className="text-sm text-gray-700 leading-relaxed">
-                                Product-oriented Software Engineer and founder with experience designing and deploying real-world AI and full-stack applications. Built and launched multiple products end-to-end, combining engineering depth with product thinking. Comfortable contributing within structured teams as well as fast-moving environments, with a focus on reliable systems and practical problem solving.
+                                Second-year B.Tech Computer Science student at Christ University, focused on product-oriented software engineering and real-world system building. Experienced in designing and deploying AI and full-stack applications, launching products end-to-end with an emphasis on reliability, practical problem solving, and strong engineering fundamentals.
                             </p>
                         </section>
 

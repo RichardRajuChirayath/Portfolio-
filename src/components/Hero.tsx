@@ -38,7 +38,7 @@ export const Hero = () => {
                                 <span className="relative inline-flex rounded-full h-2 w-2 bg-green-400"></span>
                             </span>
                             <span className="text-[11px] font-bold tracking-[0.2em] text-white/70 uppercase">
-                                AVAILABLE FOR PARTNERSHIPS
+                                OPEN TO INTERNSHIPS, PROJECTS & COLLABORATIONS
                             </span>
                         </motion.div>
 

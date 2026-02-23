@@ -71,7 +71,7 @@ export const Resume = () => {
                                 Professional Summary
                             </h2>
                             <p className="text-sm text-gray-700 leading-relaxed">
-                                Second-year B.Tech Computer Science student at Christ University, focused on product-oriented software engineering and real-world system building. Experienced in designing and deploying AI and full-stack applications, launching products end-to-end with an emphasis on reliability, practical problem solving, and strong engineering fundamentals.
+                                Second-year (4th semester) B.Tech Computer Science student at Christ University, focused on product-oriented software engineering and real-world system building. Experienced in designing and deploying AI and full-stack applications, launching products end-to-end with an emphasis on reliability, practical problem solving, and strong engineering fundamentals.
                             </p>
                         </section>
 

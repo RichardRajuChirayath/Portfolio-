@@ -44,7 +44,7 @@ export const Footer = () => {
                             </div>
                         </div>
                         <p className="text-sm text-white/40 leading-relaxed max-w-xs">
-                            Building startups that ship. Turning ideas into production-ready products.
+                            I build real-world software systems and ship production-ready products that solve practical problems.
                         </p>
                     </div>
 

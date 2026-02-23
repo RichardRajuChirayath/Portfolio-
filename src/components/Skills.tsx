@@ -39,9 +39,7 @@ const techGroups = [
 
 const stats = [
     { value: "3", label: "Foundations", icon: <Layers className="w-4 h-4" /> },
-    { value: "50+", label: "Features Shipped", icon: <Terminal className="w-4 h-4" /> },
-    { value: "98%", label: "Test Coverage", icon: <Sparkles className="w-4 h-4" /> },
-    { value: "10ms", label: "Latency Focus", icon: <Code2 className="w-4 h-4" /> },
+    { value: "25+", label: "Features Shipped", icon: <Terminal className="w-4 h-4" /> },
 ];
 
 export const Skills = () => {

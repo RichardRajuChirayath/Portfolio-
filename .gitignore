@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+.next/
+out/
+build/
+.vercel
+node_modules/
+

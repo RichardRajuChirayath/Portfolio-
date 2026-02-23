@@ -111,7 +111,7 @@ export const Hero = () => {
                             transition={{ duration: 0.8, delay: 1.8 }}
                             className="text-xl md:text-2xl text-white/60 font-medium mb-10 max-w-xl leading-relaxed"
                         >
-                            I build <span className="text-white italic">startups that ship.</span> Serial entrepreneur turning ideas into production-ready products.
+                            I build real software that ships to users — combining product thinking with strong engineering to deliver reliable, production-ready systems.
                         </motion.p>
 
                         {/* Badges */}

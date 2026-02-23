@@ -83,13 +83,13 @@ export const About = () => {
 
                         <div className="space-y-8 text-xl text-muted-foreground leading-relaxed">
                             <p className="border-l-2 border-brand-primary/30 pl-6">
-                                I don't just write code; I <span className="text-white font-bold">architect ventures.</span> As a serial entrepreneur based in <span className="text-white">Bengaluru</span>, my journey is defined by the relentless pursuit of blending complex AI engineering with premium user experiences.
+                                I design and build production-ready software systems that solve real-world problems. My work focuses on combining strong engineering fundamentals with practical product thinking, especially in AI-driven applications and full-stack platforms.
                             </p>
                             <p className="pl-6">
-                                At the age of 19, I am leading <span className="text-brand-primary font-bold">Verblyn Labs</span> and <span className="text-brand-secondary font-bold">Qohesive</span>—two startups aimed at redefining how AI integrates into high-impact industries and autonomous software development cycles.
+                                Currently, I’m developing products through <span className="text-brand-primary font-bold">Verblyn Labs</span> and <span className="text-brand-secondary font-bold">Qohesive</span>, where I focus on building reliable, scalable systems and learning how software performs in real production environments.
                             </p>
-                            <p className="pl-6">
-                                My philosophy is simple: <span className="italic text-white">Create technology that feels like magic but works like clockwork.</span> I bridge the gap between "what's possible" and "what's profitable."
+                            <p className="pl-6 italic text-white/80">
+                                My approach is simple: build useful technology, ship it, and improve it continuously.
                             </p>
                         </div>
 
